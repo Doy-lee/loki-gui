@@ -111,6 +111,8 @@
         <file>images/resize.png</file>
         <file>images/resizeHovered.png</file>
         <file>images/right.png</file>
+        <file>images/rightArrow.png</file>
+        <file>images/rightArrowInactive.png</file>
         <file>images/tableOptions.png</file>
         <file>images/tip.png</file>
         <file>images/titlebarGradient.jpg</file>
@@ -119,6 +121,7 @@
         <file>images/upArrow-green.png</file>
         <file>images/warning.png</file>
         <file>images/whiteDropIndicator.png</file>
+
         <file>js/TxUtils.js</file>
         <file>lang/flags/bangladesh.png</file>
         <file>lang/flags/brazil.png</file>
@@ -176,6 +179,7 @@
         <file>wizard/WizardCreateViewOnlyWallet.qml</file>
         <file>wizard/WizardCreateWallet.qml</file>
         <file>wizard/WizardDaemonSettings.qml</file>
+
         <file>wizard/WizardDonation.qml</file>
         <file>wizard/WizardFinish.qml</file>
         <file>wizard/WizardMain.qml</file>
