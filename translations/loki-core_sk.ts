@@ -82,19 +82,24 @@
     <message>
         <location filename="../components/DaemonConsole.qml" line="177"/>
         <source>command + enter (e.g help)</source>
-        <translation>príkaz + enter (napr. help)</translation>
+        <translation type="vanished">príkaz + enter (napr. help)</translation>
     </message>
 </context>
 <context>
     <name>DaemonManagerDialog</name>
     <message>
-        <location filename="../components/DaemonManagerDialog.qml" line="94"/>
+        <location filename="../components/DaemonManagerDialog.qml" line="95"/>
         <source>Starting local node in %1 seconds</source>
         <translation>Spustenie lokálneho uzlu za %1 sekúnd</translation>
     </message>
     <message>
-        <location filename="../components/DaemonManagerDialog.qml" line="112"/>
-        <source>Start Daemon (%1)</source>
+        <location filename="../components/DaemonManagerDialog.qml" line="114"/>
+        <source>Start Daemon</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../components/DaemonManagerDialog.qml" line="127"/>
+        <source>Use Custom Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -102,9 +107,8 @@
         <translation type="vanished">Spustenie démona (%1)</translation>
     </message>
     <message>
-        <location filename="../components/DaemonManagerDialog.qml" line="125"/>
         <source>Use custom settings</source>
-        <translation>Použiť vlastné nastavenia</translation>
+        <translation type="vanished">Použiť vlastné nastavenia</translation>
     </message>
 </context>
 <context>
@@ -341,6 +345,11 @@
         <translation>Kľúče</translation>
     </message>
     <message>
+        <location filename="../pages/Keys.qml" line="116"/>
+        <source>Mnemonic Seed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../pages/Keys.qml" line="170"/>
         <source>Keys copied to clipboard</source>
         <translation>Kľúče skopírované do schránky</translation>
@@ -363,22 +372,18 @@
         <translation>Peňaženka len na čítanie</translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="248"/>
         <source>Secret view key</source>
         <translation>Tajný kľúč na zobrazenie</translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="249"/>
         <source>Public view key</source>
         <translation>Verejný kľúč na zobrazenie</translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="250"/>
         <source>Secret spend key</source>
         <translation>Tajný kľúč na platenie</translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="251"/>
         <source>Public spend key</source>
         <translation>Verejný kľúč na platenie</translation>
     </message>
@@ -448,7 +453,7 @@
     <message>
         <location filename="../LeftPanel.qml" line="338"/>
         <source>Address book</source>
-        <translation>Adresár</translation>
+        <translation type="vanished">Adresár</translation>
     </message>
     <message>
         <location filename="../LeftPanel.qml" line="339"/>
@@ -513,7 +518,7 @@
     <message>
         <location filename="../LeftPanel.qml" line="505"/>
         <source>Sign/verify</source>
-        <translation>Podpísať/overiť</translation>
+        <translation type="vanished">Podpísať/overiť</translation>
     </message>
     <message>
         <location filename="../LeftPanel.qml" line="529"/>
@@ -541,17 +546,17 @@
         <translation>E</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="313"/>
+        <location filename="../LeftPanel.qml" line="315"/>
         <source>S</source>
         <translation>S</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="505"/>
+        <location filename="../LeftPanel.qml" line="507"/>
         <source>I</source>
         <translation>I</translation>
     </message>
     <message>
-        <location filename="../LeftPanel.qml" line="527"/>
+        <location filename="../LeftPanel.qml" line="529"/>
         <source>Settings</source>
         <translation>Nastavenia</translation>
     </message>
@@ -611,14 +616,12 @@
 <context>
     <name>Mining</name>
     <message>
-        <location filename="../pages/Mining.qml" line="62"/>
         <source>Solo mining</source>
-        <translation>Sólo ťažba</translation>
+        <translation type="vanished">Sólo ťažba</translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="69"/>
         <source>(only available for local daemons)</source>
-        <translation>(k dispozícii iba pre lokálnych démonov)</translation>
+        <translation type="vanished">(k dispozícii iba pre lokálnych démonov)</translation>
     </message>
     <message>
         <source>Mining with your computer helps strengthen the Loki network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Loki. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
@@ -630,9 +633,8 @@
         <translation>Ťažba s Vašim počítačom pomáha posilniť sieť Loki. Čím viac ľudí ťaží, tým je náročnejšie zaútočiť na sieť, a každý malý kúsok pomáha.&lt;br&gt; &lt;br&gt;Ťažba Vám taktiež dáva malú šancu zarobiť nejaké Loki. Váš počítač bude vytvárať haše hľadaním riešenia v bloku. Ak nájdete blok, dostanete s tým súvisiacu odmenu. Veľa šťastia!</translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="88"/>
         <source>CPU threads</source>
-        <translation>Vlákna procesora</translation>
+        <translation type="vanished">Vlákna procesora</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="96"/>
@@ -640,9 +642,8 @@
         <translation>(nepovinné)</translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="108"/>
         <source>Background mining (experimental)</source>
-        <translation>Ťažba na pozadí (experimentálna)</translation>
+        <translation type="vanished">Ťažba na pozadí (experimentálna)</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="122"/>
@@ -650,14 +651,42 @@
         <translation>Povoliť ťažbu pri behu na batériu</translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="130"/>
         <source>Manage miner</source>
-        <translation>Spravovať ťažbu</translation>
+        <translation type="vanished">Spravovať ťažbu</translation>
+    </message>
+    <message>
+        <source>Start mining</source>
+        <translation type="vanished">Spustiť ťažbu</translation>
+    </message>
+    <message>
+        <location filename="../pages/Mining.qml" line="62"/>
+        <source>Solo Mining</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Mining.qml" line="69"/>
+        <source>(Only available for local daemons)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Mining.qml" line="88"/>
+        <source>CPU Threads</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Mining.qml" line="108"/>
+        <source>Background Mining (Experimental)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Mining.qml" line="130"/>
+        <source>Manage Miner</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="140"/>
-        <source>Start mining</source>
-        <translation>Spustiť ťažbu</translation>
+        <source>Start Mining</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="146"/>
@@ -675,14 +704,27 @@
         <translation>Ťažba k dispozícii iba pre lokálnych démonov. Spustite lokálneho démona, aby ste mohli ťažiť.&lt;br&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="162"/>
-        <source>Stop mining</source>
-        <translation>Zastaviť ťažbu</translation>
+        <location filename="../pages/Mining.qml" line="161"/>
+        <source>Stop Mining</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="173"/>
+        <location filename="../pages/Mining.qml" line="171"/>
+        <source>Status: Not Mining</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Mining.qml" line="188"/>
+        <source>Not Mining</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Stop mining</source>
+        <translation type="vanished">Zastaviť ťažbu</translation>
+    </message>
+    <message>
         <source>Status: not mining</source>
-        <translation>Stav: neťaží sa</translation>
+        <translation type="vanished">Stav: neťaží sa</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="185"/>
@@ -690,9 +732,8 @@
         <translation>Ťaží sa rýchlosťou %1 H/s</translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="188"/>
         <source>Not mining</source>
-        <translation>Neťaží sa</translation>
+        <translation type="vanished">Neťaží sa</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="190"/>
@@ -742,8 +783,12 @@
     </message>
     <message>
         <location filename="../components/NetworkStatusItem.qml" line="103"/>
+        <source>Network Status</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Network status</source>
-        <translation>Stav siete</translation>
+        <translation type="vanished">Stav siete</translation>
     </message>
 </context>
 <context>
@@ -848,7 +893,12 @@
     <message>
         <location filename="../pages/Receive.qml" line="74"/>
         <source>WARNING: no connection to daemon</source>
-        <translation>VAROVANIE: žiadne pripojenie k démonovi</translation>
+        <translation type="vanished">VAROVANIE: žiadne pripojenie k démonovi</translation>
+    </message>
+    <message>
+        <location filename="../pages/Receive.qml" line="81"/>
+        <source>WARNING: No connection to daemon</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="124"/>
@@ -1033,12 +1083,12 @@
     <message>
         <location filename="../pages/Settings.qml" line="110"/>
         <source>Create view only wallet</source>
-        <translation>Vytvoriť peňaženku len na sledovanie</translation>
+        <translation type="vanished">Vytvoriť peňaženku len na sledovanie</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="382"/>
         <source>Show status</source>
-        <translation>Zobraziť stav</translation>
+        <translation type="vanished">Zobraziť stav</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="412"/>
@@ -1086,7 +1136,7 @@
     <message>
         <location filename="../pages/Settings.qml" line="399"/>
         <source>Blockchain location</source>
-        <translation>Umiestnenie blockchain-u</translation>
+        <translation type="vanished">Umiestnenie blockchain-u</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="423"/>
@@ -1121,17 +1171,17 @@
     <message>
         <location filename="../pages/Settings.qml" line="486"/>
         <source>Layout settings</source>
-        <translation>Nastavenia rozloženia</translation>
+        <translation type="vanished">Nastavenia rozloženia</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="507"/>
         <source>Custom decorations</source>
-        <translation>Vlastné dekorácie</translation>
+        <translation type="vanished">Vlastné dekorácie</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="517"/>
         <source>Log level</source>
-        <translation>Úroveň logovania</translation>
+        <translation type="vanished">Úroveň logovania</translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="592"/>
@@ -1154,7 +1204,7 @@
         <translation>Lokálny uzol</translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="226"/>
+        <location filename="../pages/Settings.qml" line="209"/>
         <source>Remote Node</source>
         <translation>Vzdialený uzol</translation>
     </message>
@@ -1191,7 +1241,7 @@
     <message>
         <location filename="../pages/Settings.qml" line="633"/>
         <source>GUI version: </source>
-        <translation>Verzia GUI: </translation>
+        <translation type="vanished">Verzia GUI: </translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="645"/>
@@ -1297,9 +1347,6 @@ Stará vyrovnávacia pamäť peňaženky bude premenovaná a bude môcť byť ob
         <source>Close wallet</source>
         <translation>Zatvoriť peňaženku</translation>
     </message>
-</context>
-<context>
-    <name>SharedRingDB</name>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="93"/>
         <source>Shared RingDB</source>
@@ -1521,7 +1568,7 @@ Stará vyrovnávacia pamäť peňaženky bude premenovaná a bude môcť byť ob
     </message>
     <message>
         <location filename="../pages/Sign.qml" line="170"/>
-        <location filename="../pages/Sign.qml" line="263"/>
+        <location filename="../pages/Sign.qml" line="261"/>
         <source>Browse</source>
         <translation>Prehliadať</translation>
     </message>
@@ -1541,7 +1588,7 @@ Stará vyrovnávacia pamäť peňaženky bude premenovaná a bude môcť byť ob
         <translation>Adresa</translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="320"/>
+        <location filename="../pages/Sign.qml" line="313"/>
         <source>Please choose a file to sign</source>
         <translation>Vyberte súbor, ktorý chcete podpísať</translation>
     </message>
@@ -1553,7 +1600,17 @@ Stará vyrovnávacia pamäť peňaženky bude premenovaná a bude môcť byť ob
         <translation>Overiť</translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="331"/>
+        <location filename="../pages/Sign.qml" line="220"/>
+        <source>Verify Message</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Sign.qml" line="247"/>
+        <source>Verify File</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Sign.qml" line="324"/>
         <source>Please choose a file to verify</source>
         <translation>Vyberte súbor, ktorý chcete overiť</translation>
     </message>
@@ -1602,52 +1659,52 @@ Stará vyrovnávacia pamäť peňaženky bude premenovaná a bude môcť byť ob
 <context>
     <name>StandardDropdown</name>
     <message>
-        <location filename="../components/StandardDropdown.qml" line="163"/>
+        <location filename="../components/StandardDropdown.qml" line="168"/>
         <source>Low (x1 fee)</source>
         <translation>Nízky (x1 poplatok)</translation>
     </message>
     <message>
-        <location filename="../components/StandardDropdown.qml" line="164"/>
+        <location filename="../components/StandardDropdown.qml" line="169"/>
         <source>Medium (x20 fee)</source>
         <translation>Stredný (x20 poplatok)</translation>
     </message>
     <message>
-        <location filename="../components/StandardDropdown.qml" line="165"/>
+        <location filename="../components/StandardDropdown.qml" line="170"/>
         <source>High (x166 fee)</source>
         <translation>Vysoký (x166 poplatok)</translation>
     </message>
     <message>
-        <location filename="../components/StandardDropdown.qml" line="166"/>
+        <location filename="../components/StandardDropdown.qml" line="171"/>
         <source>Slow (x0.25 fee)</source>
         <translation>Pomalý (x0.25 poplatok)</translation>
     </message>
     <message>
-        <location filename="../components/StandardDropdown.qml" line="167"/>
+        <location filename="../components/StandardDropdown.qml" line="172"/>
         <source>Default (x1 fee)</source>
         <translation>Štandardný (x1 poplatok)</translation>
     </message>
     <message>
-        <location filename="../components/StandardDropdown.qml" line="168"/>
+        <location filename="../components/StandardDropdown.qml" line="173"/>
         <source>Fast (x5 fee)</source>
         <translation>Rýchly (x5 poplatok)</translation>
     </message>
     <message>
-        <location filename="../components/StandardDropdown.qml" line="169"/>
+        <location filename="../components/StandardDropdown.qml" line="174"/>
         <source>Fastest (x41.5 fee)</source>
         <translation>Najrýchlejší (x41.5 poplatok)</translation>
     </message>
     <message>
-        <location filename="../components/StandardDropdown.qml" line="170"/>
+        <location filename="../components/StandardDropdown.qml" line="175"/>
         <source>All</source>
         <translation>Všetko</translation>
     </message>
     <message>
-        <location filename="../components/StandardDropdown.qml" line="171"/>
+        <location filename="../components/StandardDropdown.qml" line="176"/>
         <source>Sent</source>
         <translation>Odoslané</translation>
     </message>
     <message>
-        <location filename="../components/StandardDropdown.qml" line="172"/>
+        <location filename="../components/StandardDropdown.qml" line="177"/>
         <source>Received</source>
         <translation>Prijaté</translation>
     </message>
@@ -1750,10 +1807,10 @@ Stará vyrovnávacia pamäť peňaženky bude premenovaná a bude môcť byť ob
     <message>
         <location filename="../pages/Transfer.qml" line="212"/>
         <source>Transaction priority</source>
-        <translation>Priorita transakcie</translation>
+        <translation type="vanished">Priorita transakcie</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="194"/>
+        <location filename="../pages/Transfer.qml" line="180"/>
         <source>All</source>
         <translation>Všteko</translation>
     </message>
@@ -1832,7 +1889,7 @@ Stará vyrovnávacia pamäť peňaženky bude premenovaná a bude môcť byť ob
     <message>
         <location filename="../pages/Transfer.qml" line="338"/>
         <source>Description &lt;font size=&apos;2&apos;&gt;( Optional )&lt;/font&gt;</source>
-        <translation>Popis &lt;font size=&apos;2&apos;&gt;( Nepovinné )&lt;/font&gt;</translation>
+        <translation type="vanished">Popis &lt;font size=&apos;2&apos;&gt;( Nepovinné )&lt;/font&gt;</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="339"/>
@@ -1862,26 +1919,26 @@ Stará vyrovnávacia pamäť peňaženky bude premenovaná a bude môcť byť ob
     <message>
         <location filename="../pages/Transfer.qml" line="503"/>
         <source>Create tx file</source>
-        <translation>Vytvoriť transakčný súbor</translation>
+        <translation type="vanished">Vytvoriť transakčný súbor</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="522"/>
         <source>Sign tx file</source>
-        <translation>Podpísať transakčný súbor</translation>
+        <translation type="vanished">Podpísať transakčný súbor</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="533"/>
         <source>Submit tx file</source>
-        <translation>Odoslať transakčný súbor</translation>
+        <translation type="vanished">Odoslať transakčný súbor</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="544"/>
-        <location filename="../pages/Transfer.qml" line="600"/>
+        <location filename="../pages/Transfer.qml" line="487"/>
+        <location filename="../pages/Transfer.qml" line="543"/>
         <source>Error</source>
         <translation>Chyba</translation>
     </message>
     <message>
-        <location filename="../pages/Transfer.qml" line="606"/>
+        <location filename="../pages/Transfer.qml" line="549"/>
         <source>Information</source>
         <translation>Informácie</translation>
     </message>
@@ -1992,12 +2049,12 @@ Prosím aktualizujte, alebo pripojte k inému démonovi</translation>
     <message>
         <location filename="../pages/Transfer.qml" line="460"/>
         <source>Transaction cost</source>
-        <translation>Transakčné náklady</translation>
+        <translation type="vanished">Transakčné náklady</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="329"/>
         <source>Payment ID &lt;font size=&apos;2&apos;&gt;( Optional )&lt;/font&gt;</source>
-        <translation>ID platby &lt;font size=&apos;2&apos;&gt;( Nepovinné )&lt;/font&gt;</translation>
+        <translation type="vanished">ID platby &lt;font size=&apos;2&apos;&gt;( Nepovinné )&lt;/font&gt;</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="228"/>
@@ -2061,29 +2118,29 @@ V prípade odchádzajúcich platieb môžete získať  &apos;Dôkaz Vynaloženia
         <translation>Voliteľná správa, proti ktorej je podpis podpísaný</translation>
     </message>
     <message>
-        <location filename="../pages/TxKey.qml" line="121"/>
+        <location filename="../pages/TxKey.qml" line="122"/>
         <source>Generate</source>
         <translation>Generovať</translation>
     </message>
     <message>
-        <location filename="../pages/TxKey.qml" line="141"/>
+        <location filename="../pages/TxKey.qml" line="142"/>
         <source>Check Transaction</source>
         <translation>Skontrolujte Transakciu</translation>
     </message>
     <message>
-        <location filename="../pages/TxKey.qml" line="145"/>
+        <location filename="../pages/TxKey.qml" line="146"/>
         <source>Verify that funds were paid to an address by supplying the transaction ID, the recipient address, the message used for signing and the signature.
 For the case with Spend Proof, you don&apos;t need to specify the recipient address.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/TxKey.qml" line="197"/>
+        <location filename="../pages/TxKey.qml" line="198"/>
         <source>Signature</source>
         <translation>Podpis</translation>
     </message>
     <message>
-        <location filename="../pages/TxKey.qml" line="198"/>
-        <source>Paste tx proof</source>
+        <location filename="../pages/TxKey.qml" line="199"/>
+        <source>Paste TX proof</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2107,10 +2164,10 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <location filename="../pages/TxKey.qml" line="85"/>
         <location filename="../pages/TxKey.qml" line="159"/>
         <source>Paste tx ID</source>
-        <translation>Vložte ID transakcie</translation>
+        <translation type="vanished">Vložte ID transakcie</translation>
     </message>
     <message>
-        <location filename="../pages/TxKey.qml" line="210"/>
+        <location filename="../pages/TxKey.qml" line="212"/>
         <source>Check</source>
         <translation>Skontrolovať</translation>
     </message>
@@ -2172,9 +2229,13 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardCreateWallet</name>
     <message>
-        <location filename="../wizard/WizardCreateWallet.qml" line="101"/>
         <source>Create a new wallet</source>
-        <translation>Vytvoriť novú peňaženku</translation>
+        <translation type="vanished">Vytvoriť novú peňaženku</translation>
+    </message>
+    <message>
+        <location filename="../wizard/WizardCreateWallet.qml" line="98"/>
+        <source>Create A New Wallet</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2185,7 +2246,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../wizard/WizardDaemonSettings.qml" line="127"/>
+        <location filename="../wizard/WizardDaemonSettings.qml" line="125"/>
         <source>Start a node automatically in background (recommended)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2293,7 +2354,12 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation>Adresa démona</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardFinish.qml" line="56"/>
+        <location filename="../wizard/WizardFinish.qml" line="138"/>
+        <source>You’re All Set Up!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../wizard/WizardFinish.qml" line="57"/>
         <source>Testnet</source>
         <translation>Testnet</translation>
     </message>
@@ -2325,13 +2391,13 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardFinish.qml" line="137"/>
         <source>You’re all set up!</source>
-        <translation>Všetko je nastavené!</translation>
+        <translation type="vanished">Všetko je nastavené!</translation>
     </message>
 </context>
 <context>
     <name>WizardMain</name>
     <message>
-        <location filename="../wizard/WizardMain.qml" line="184"/>
+        <location filename="../wizard/WizardMain.qml" line="181"/>
         <source>A wallet with same name already exists. Please change wallet name</source>
         <translation>Peňaženka s rovnakým názvom už existuje. Zmeňte prosím názov peňaženky</translation>
     </message>
@@ -2373,17 +2439,17 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="160"/>
         <source>Wallet name</source>
-        <translation>Názov peňaženky</translation>
+        <translation type="vanished">Názov peňaženky</translation>
     </message>
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="184"/>
         <source>Restore from seed</source>
-        <translation>Obnoviť zo seed-u</translation>
+        <translation type="vanished">Obnoviť zo seed-u</translation>
     </message>
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="194"/>
         <source>Restore from keys</source>
-        <translation>Obnoviť z kľúčov</translation>
+        <translation type="vanished">Obnoviť z kľúčov</translation>
     </message>
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="204"/>
@@ -2428,17 +2494,17 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="vanished">Zadajte svoj 25 slovný mnemotechnický seed</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardMemoTextInput.qml" line="45"/>
+        <location filename="../wizard/WizardMemoTextInput.qml" line="47"/>
         <source>Enter your 25 (or 24) word mnemonic seed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../wizard/WizardMemoTextInput.qml" line="65"/>
+        <location filename="../wizard/WizardMemoTextInput.qml" line="73"/>
         <source>Seed copied to clipboard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../wizard/WizardMemoTextInput.qml" line="93"/>
+        <location filename="../wizard/WizardMemoTextInput.qml" line="106"/>
         <source>This seed is &lt;b&gt;very&lt;/b&gt; important to write down and keep secret. It is all you need to backup and restore your wallet.</source>
         <translation>tento seed je &lt;b&gt;veľmi&lt;/b&gt; dôležité si zapísať a uchovať v tajnosti. Je to všetko, čo potrebujete na zálohovanie a obnovenie peňaženky.</translation>
     </message>
@@ -2458,7 +2524,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardOptions.qml" line="142"/>
         <source>Create a new wallet</source>
-        <translation>Vytvoriť novú peňaženku</translation>
+        <translation type="vanished">Vytvoriť novú peňaženku</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="183"/>
@@ -2476,7 +2542,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation>Testnet</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardOptions.qml" line="267"/>
+        <location filename="../wizard/WizardOptions.qml" line="254"/>
         <source>Stagenet</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2489,22 +2555,25 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardPassword</name>
     <message>
-        <location filename="../wizard/WizardPassword.qml" line="58"/>
-        <location filename="../wizard/WizardPassword.qml" line="60"/>
         <source>Give your wallet a password</source>
-        <translation>Dajte Vašej peňaženke heslo</translation>
+        <translation type="vanished">Dajte Vašej peňaženke heslo</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardPassword.qml" line="127"/>
         <source> &lt;br&gt;Note: this password cannot be recovered. If you forget it then the wallet will have to be restored from its 25 word mnemonic seed.&lt;br/&gt;&lt;br/&gt;
                         &lt;b&gt;Enter a strong password&lt;/b&gt; (using letters, numbers, and/or symbols):</source>
+        <translation type="obsolete"> &lt;br&gt;Poznámka: toto heslo nie je možné obnoviť. Ak ho zabudnete, bude potrebné obnoviť peňaženku z jej 25 slovného mnemotechnického seed-u.&lt;br/&gt;&lt;br/&gt;
+                        &lt;b&gt;Zadajte silné heslo&lt;/b&gt; (použite písmená, čísla, a/alebo symboly):</translation>
+    </message>
+    <message>
+        <location filename="../wizard/WizardPassword.qml" line="56"/>
+        <source>Give Your Wallet A Password</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../wizard/WizardPassword.qml" line="119"/>
         <source> &lt;br&gt;Note: this password cannot be recovered. If you forget it then the wallet will have to be restored from its 25 word mnemonic seed.&lt;br/&gt;&lt;br/&gt;
                         &lt;b&gt;Enter a strong password&lt;/b&gt; (using letters, numbers, and/or symbols):</source>
-        <translation type="vanished"> &lt;br&gt;Poznámka: toto heslo nie je možné obnoviť. Ak ho zabudnete, bude potrebné obnoviť peňaženku z jej 25 slovného mnemotechnického seed-u.&lt;br/&gt;&lt;br/&gt;
-                        &lt;b&gt;Zadajte silné heslo&lt;/b&gt; (použite písmená, čísla, a/alebo symboly):</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2523,9 +2592,13 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
 <context>
     <name>WizardRecoveryWallet</name>
     <message>
-        <location filename="../wizard/WizardRecoveryWallet.qml" line="119"/>
         <source>Restore wallet</source>
-        <translation>Obnoviť peňaženku</translation>
+        <translation type="vanished">Obnoviť peňaženku</translation>
+    </message>
+    <message>
+        <location filename="../wizard/WizardRecoveryWallet.qml" line="119"/>
+        <source>Restore Wallet</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2536,7 +2609,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation>Vitajte v Loki!</translation>
     </message>
     <message>
-        <location filename="../wizard/WizardWelcome.qml" line="84"/>
+        <location filename="../wizard/WizardWelcome.qml" line="81"/>
         <source>Please choose a language and regional format.</source>
         <translation>Prosím, vyberte jazyk a regionálny formát.</translation>
     </message>
@@ -2615,7 +2688,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../main.qml" line="597"/>
         <source>Can&apos;t create transaction: Wrong daemon version: </source>
-        <translation>Nemožno vytvoriť transakciu: Chybná verzia démona: </translation>
+        <translation type="vanished">Nemožno vytvoriť transakciu: Chybná verzia démona: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="599"/>
@@ -2711,13 +2784,14 @@ Number of transactions: </source>
     <message>
         <location filename="../main.qml" line="630"/>
         <source>
-Description: </source>
-        <translation type="unfinished"></translation>
+Ringsize: </source>
+        <translation type="obsolete">
+Ringsize: </translation>
     </message>
     <message>
         <location filename="../main.qml" line="632"/>
         <source>
-Spending address index: </source>
+Description: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2913,23 +2987,21 @@ Description: </source>
 Popis: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="660"/>
         <source>Amount is wrong: expected number from %1 to %2</source>
-        <translation>Suma je nesprávna: očakávané číslo od %1 do %2</translation>
+        <translation type="vanished">Suma je nesprávna: očakávané číslo od %1 do %2</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="672"/>
         <source>Insufficient funds. Unlocked balance: %1</source>
-        <translation>Nedostatok prostriedkov. Odomknutý zostatok: %1</translation>
+        <translation type="vanished">Nedostatok prostriedkov. Odomknutý zostatok: %1</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="775"/>
+        <location filename="../main.qml" line="774"/>
         <source>Couldn&apos;t send the money: </source>
         <translation>Peniaze nebolo možné poslať: </translation>
     </message>
     <message>
-        <location filename="../main.qml" line="778"/>
-        <location filename="../main.qml" line="1215"/>
+        <location filename="../main.qml" line="777"/>
+        <location filename="../main.qml" line="1212"/>
         <source>Information</source>
         <translation>Informácie</translation>
     </message>
@@ -2938,7 +3010,7 @@ Popis: </translation>
         <translation type="vanished">Peniaze boli úspešne odoslané: %1 transakcií</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="784"/>
+        <location filename="../main.qml" line="783"/>
         <source>Transaction saved to file: %1</source>
         <translation>Transakcia bola uložená do súboru: %1</translation>
     </message>
@@ -2947,27 +3019,27 @@ Popis: </translation>
         <translation type="vanished">Táto adresa prijala %1 loki, ale transakcia ešte nebola vyťažená</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="862"/>
+        <location filename="../main.qml" line="861"/>
         <source>This address received nothing</source>
         <translation>Táto adresa neprijala nič</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="881"/>
+        <location filename="../main.qml" line="880"/>
         <source>Balance (syncing)</source>
         <translation>Zostatok (synchronizácia)</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="881"/>
+        <location filename="../main.qml" line="880"/>
         <source>Balance</source>
         <translation>Zostatok</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1262"/>
+        <location filename="../main.qml" line="1259"/>
         <source>Please wait...</source>
         <translation>Prosím čakajte...</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1286"/>
+        <location filename="../main.qml" line="1282"/>
         <source>Program setup wizard</source>
         <translation>Sprievodca nastavením programu</translation>
     </message>
@@ -2976,7 +3048,7 @@ Popis: </translation>
         <translation type="vanished">Loki</translation>
     </message>
     <message>
-        <location filename="../main.qml" line="1458"/>
+        <location filename="../main.qml" line="1454"/>
         <source>send to the same destination</source>
         <translation>odoslať do rovnakého cieľa</translation>
     </message>
