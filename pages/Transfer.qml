@@ -44,7 +44,7 @@ Rectangle {
     signal sweepUnmixableClicked()
 
     color: "transparent"
-    property string startLinkText: qsTr("<style type='text/css'>a {text-decoration: none; color: #FF6C3C; font-size: 14px;}</style><font size='2'> (</font><a href='#'>Start daemon</a><font size='2'>)</font>") + translationManager.emptyString
+    property string startLinkText: qsTr("<style type='text/css'>a {text-decoration: none; color: #78BE20; font-size: 14px;}</style><a href='#'> (Start Daemon)</a>") + translationManager.emptyString
     property bool showAdvanced: false
 
     Clipboard { id: clipboard }
@@ -206,7 +206,7 @@ Rectangle {
               Label {
                   id: transactionPriority
                   Layout.topMargin: 14
-                  text: qsTr("Transaction priority") + translationManager.emptyString
+                  text: qsTr("Transaction Priority") + translationManager.emptyString
                   fontBold: false
                   fontSize: 16
               }
@@ -251,11 +251,9 @@ Rectangle {
               id: addressLine
               spacing: 0
               fontBold: true
-              labelText: qsTr("<style type='text/css'>a {text-decoration: none; color: #858585; font-size: 14px;}</style>\
-                Address <font size='2'>  ( </font> <a href='#'>Address book</a><font size='2'> )</font>")
-                + translationManager.emptyString
+              labelText: qsTr("<style type='text/css'>a {text-decoration: none; color: #78BE20; font-size: 14px;}</style> Address <a href='#'>(Address Book)</a>") + translationManager.emptyString
               labelButtonText: qsTr("Resolve") + translationManager.emptyString
-              placeholderText: "4.. / 8.."
+              placeholderText: "L.."
               onInputLabelLinkActivated: { appWindow.showPageRequest("AddressBook") }
           }
 
@@ -323,7 +321,7 @@ Rectangle {
           LineEdit {
               id: paymentIdLine
               fontBold: true
-              labelText: qsTr("Payment ID <font size='2'>( Optional )</font>") + translationManager.emptyString
+              labelText: qsTr("Payment ID <font size='2'>(Optional)</font>") + translationManager.emptyString
               placeholderText: qsTr("16 or 64 hexadecimal characters") + translationManager.emptyString
               Layout.fillWidth: true
           }
@@ -332,7 +330,7 @@ Rectangle {
       RowLayout {
           LineEdit {
               id: descriptionLine
-              labelText: qsTr("Description <font size='2'>( Optional )</font>") + translationManager.emptyString
+              labelText: qsTr("Description <font size='2'>(Optional)</font>") + translationManager.emptyString
               placeholderText: qsTr("Saved to local wallet history") + translationManager.emptyString
               Layout.fillWidth: true
           }
@@ -427,7 +425,7 @@ Rectangle {
                 onClicked: {
                     persistentSettings.transferShowAdvanced = !persistentSettings.transferShowAdvanced
                 }
-                text: qsTr("Advanced options") + translationManager.emptyString
+                text: qsTr("Advanced Options") + translationManager.emptyString
             }
         }
 
@@ -516,7 +514,7 @@ Rectangle {
 
             StandardButton {
                 id: signTxButton
-                text: qsTr("Sign tx file") + translationManager.emptyString
+                text: qsTr("Sign TX File") + translationManager.emptyString
                 small: true
                 visible: !appWindow.viewOnly
                 onClicked: {
@@ -655,7 +653,7 @@ Rectangle {
     function updateStatus() {
         pageRoot.enabled = true;
         if(typeof currentWallet === "undefined") {
-            warningText.text = qsTr("Wallet is not connected to daemon.") + root.startLinkText
+            warningText.text = qsTr("Wallet is not connected to daemon") + root.startLinkText
             return;
         }
 

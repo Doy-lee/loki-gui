@@ -72,7 +72,7 @@ Rectangle {
             return
         }
         if (appWindow.currentWallet.connected() == Wallet.ConnectionStatus_Disconnected) {
-            trackingLineText.text = qsTr("WARNING: no connection to daemon");
+            trackingLineText.text = qsTr("WARNING: No connection to daemon");
             trackingModel.clear();
             return
         }

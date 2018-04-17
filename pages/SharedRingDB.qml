@@ -107,18 +107,18 @@ Rectangle {
         LabelSubheader {
             Layout.fillWidth: true
             textFormat: Text.RichText
-            text: "<style type='text/css'>a {text-decoration: none; color: #FF6C3C; font-size: 14px;}</style>" +
-                  qsTr("Blackballed outputs") + " <a href='#'>" + qsTr("Help") + "</a>" + translationManager.emptyString
+            text: "<style type='text/css'>a {text-decoration: none; color: #78BE20; font-size: 14px;}</style>" +
+                  qsTr("Blackballed Outputs") + " <a href='#'>(" + qsTr("Help") + ")</a>" + translationManager.emptyString
             onLinkActivated: {
-                sharedRingDBDialog.title  = qsTr("Blackballed outputs") + translationManager.emptyString;
+                sharedRingDBDialog.title  = qsTr("Blackballed Outputs") + translationManager.emptyString;
                 sharedRingDBDialog.text = qsTr(
-                    "In order to obscure which inputs in a Loki transaction are being spent, a third party should not be able " +
+                    "<p>In order to obscure which inputs in a Loki transaction are being spent, a third party should not be able " +
                     "to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection " +
                     "afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being " +
                     "actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers " +
-                    "of privacy protection Loki uses.<br>" +
-                    "Alternatively, you can scan the blockchain (and the blockchain of key-reusing Loki clones) yourself " +
-                    "using the loki-blockchain-blackball tool to create a list of known spent outputs.<br>"
+                    "of privacy protection Loki uses.</p>" +
+                    "<p>Alternatively, you can scan the blockchain (and the blockchain of key-reusing Loki clones) yourself " +
+                    "using the loki-blockchain-blackball tool to create a list of known spent outputs.</p>"
                 )
                 sharedRingDBDialog.icon = StandardIcon.Information
                 sharedRingDBDialog.open()
@@ -236,8 +236,8 @@ Rectangle {
             Layout.fillWidth: true
             Layout.topMargin: 24 * scaleRatio
             textFormat: Text.RichText
-            text: "<style type='text/css'>a {text-decoration: none; color: #FF6C3C; font-size: 14px;}</style>" +
-                  qsTr("Rings") + " <a href='#'>" + qsTr("Help") + "</a>" + translationManager.emptyString
+            text: "<style type='text/css'>a {text-decoration: none; color: #78BE20; font-size: 14px;}</style>" +
+                  qsTr("Rings") + " <a href='#'>(" + qsTr("Help") + ")</a>" + translationManager.emptyString
             onLinkActivated: {
                 sharedRingDBDialog.title  = qsTr("Rings") + translationManager.emptyString;
                 sharedRingDBDialog.text = qsTr(

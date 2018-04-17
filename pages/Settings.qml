@@ -75,7 +75,7 @@ Rectangle {
                 id: manageWalletLabel
                 fontSize: 22 * scaleRatio
                 Layout.fillWidth: true
-                text: qsTr("Manage wallet") + translationManager.emptyString
+                text: qsTr("Manage Wallet") + translationManager.emptyString
                 Layout.topMargin: 10 * scaleRatio
             }
 
@@ -96,7 +96,7 @@ Rectangle {
             StandardButton {
                 id: closeWalletButton
                 small: true
-                text: qsTr("Close wallet") + translationManager.emptyString
+                text: qsTr("Close Wallet") + translationManager.emptyString
                 visible: true
                 onClicked: {
                     console.log("closing wallet button clicked")
@@ -108,7 +108,7 @@ Rectangle {
                 id: createViewOnlyWalletButton
                 enabled: !viewOnly
                 small: true
-                text: qsTr("Create view only wallet") + translationManager.emptyString
+                text: qsTr("Create View Only Wallet") + translationManager.emptyString
                 visible: true
                 onClicked: {
                     wizard.openCreateViewOnlyWalletPage();
@@ -123,7 +123,7 @@ Rectangle {
                 shadowPressedColor: "#B32D00"
                 releasedColor: "#FF6C3C"
                 pressedColor: "#FF4304"
-                text: qsTr("Rescan wallet cache") + translationManager.emptyString
+                text: qsTr("Rescan Wallet Cache") + translationManager.emptyString
                 onClicked: {
                     // Show confirmation dialog
                     confirmationDialog.title = qsTr("Rescan wallet cache") + translationManager.emptyString;
@@ -154,7 +154,7 @@ Rectangle {
                 id: rescanSpentButton
                 small: true
                 enabled: !persistentSettings.useRemoteNode
-                text: qsTr("Rescan wallet balance") + translationManager.emptyString
+                text: qsTr("Rescan Wallet Balance") + translationManager.emptyString
                 onClicked: {
                     if (!currentWallet.rescanSpent()) {
                         console.error("Error: ", currentWallet.errorString);
@@ -180,7 +180,7 @@ Rectangle {
             StandardButton {
                 id: changePasswordButton
                 small: true
-                text: qsTr("Change password") + translationManager.emptyString
+                text: qsTr("Change Password") + translationManager.emptyString
                 onClicked: {
                     passwordDialog.onAcceptedCallback = function() {
                         if(appWindow.walletPassword === passwordDialog.password){
@@ -205,7 +205,7 @@ Rectangle {
             Layout.fillWidth: true
 
             LabelSubheader {
-                text: qsTr("Daemon mode") + translationManager.emptyString
+                text: qsTr("Daemon Mode") + translationManager.emptyString
             }
         }
 
@@ -238,7 +238,7 @@ Rectangle {
             Layout.fillWidth: true
 
             LabelSubheader {
-                text:  qsTr("Bootstrap node") + translationManager.emptyString
+                text:  qsTr("Bootstrap Node") + translationManager.emptyString
             }
         }
 
@@ -380,7 +380,7 @@ Rectangle {
                 id: daemonStatusButton
                 small: true
                 visible: true
-                text: qsTr("Show status") + translationManager.emptyString
+                text: qsTr("Show Status") + translationManager.emptyString
                 onClicked: {
                     daemonManager.sendCommand("status",currentWallet.nettype);
                     daemonConsolePopup.open();
@@ -397,7 +397,7 @@ Rectangle {
                 Layout.bottomMargin: 14 * scaleRatio
 
                 LabelSubheader {
-                    text: qsTr("Blockchain location") + translationManager.emptyString
+                    text: qsTr("Blockchain Location") + translationManager.emptyString
                 }
             }
 
@@ -421,7 +421,7 @@ Rectangle {
                     id: blockchainFolderButton
                     small: true
                     visible: true
-                    text: qsTr("Change location") + translationManager.emptyString
+                    text: qsTr("Change Location") + translationManager.emptyString
                     onClicked: {
                         //mouse.accepted = false
                         if(persistentSettings.blockchainDataDir != "")
@@ -436,7 +436,7 @@ Rectangle {
         RowLayout{
             CheckBox {
                 id: daemonAdvanced
-                text: qsTr("Show advanced") + translationManager.emptyString
+                text: qsTr("Show Advanced") + translationManager.emptyString
             }
         }
 
@@ -448,9 +448,9 @@ Rectangle {
                 id: daemonFlags
                 Layout.preferredWidth:  200
                 Layout.fillWidth: true
-                labelText: qsTr("Local daemon startup flags") + translationManager.emptyString
+                labelText: qsTr("Local Daemon Startup Flags") + translationManager.emptyString
                 text: appWindow.persistentSettings.daemonFlags;
-                placeholderText: qsTr("(optional)") + translationManager.emptyString
+                placeholderText: qsTr("(Optional)") + translationManager.emptyString
             }
         }
 
@@ -505,7 +505,7 @@ Rectangle {
                 id: customDecorationsCheckBox
                 checked: persistentSettings.customDecorations
                 onClicked: Windows.setCustomWindowDecorations(checked)
-                text: qsTr("Custom decorations") + translationManager.emptyString
+                text: qsTr("Custom Decorations") + translationManager.emptyString
             }
         }
 
@@ -515,7 +515,7 @@ Rectangle {
             Label {
                 id: logLevelLabel
                 fontSize: 22 * scaleRatio
-                text: qsTr("Log level") + translationManager.emptyString
+                text: qsTr("Log Level") + translationManager.emptyString
             }
 
             Rectangle {
@@ -731,7 +731,7 @@ Rectangle {
             TextBlock {
                 Layout.fillWidth: true
                 font.pixelSize: 14
-                text: qsTr("Wallet log path: ") + translationManager.emptyString
+                text: qsTr("Wallet Log Path: ") + translationManager.emptyString
             }
 
             TextBlock {

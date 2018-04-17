@@ -336,7 +336,7 @@ Rectangle {
                 id: addressBookButton
                 anchors.left: parent.left
                 anchors.right: parent.right
-                text: qsTr("Address book") + translationManager.emptyString
+                text: qsTr("Address Book") + translationManager.emptyString
                 symbol: qsTr("B") + translationManager.emptyString
                 dotColor: "#FF4F41"
                 under: transferButton
@@ -455,7 +455,7 @@ Rectangle {
                 id: txkeyButton
                 anchors.left: parent.left
                 anchors.right: parent.right
-                text: qsTr("Prove/check") + translationManager.emptyString
+                text: qsTr("Prove/Check") + translationManager.emptyString
                 symbol: qsTr("K") + translationManager.emptyString
                 dotColor: "#FFD781"
                 under: advancedButton
@@ -503,7 +503,7 @@ Rectangle {
                 id: signButton
                 anchors.left: parent.left
                 anchors.right: parent.right
-                text: qsTr("Sign/verify") + translationManager.emptyString
+                text: qsTr("Sign/Verify") + translationManager.emptyString
                 symbol: qsTr("I") + translationManager.emptyString
                 dotColor: "#FFD781"
                 under: advancedButton
