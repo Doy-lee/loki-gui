@@ -14,7 +14,7 @@
         <translation>Cod QR</translation>
     </message>
     <message>
-        <location filename="../pages/AddressBook.qml" line="73"/>
+        <location filename="../pages/AddressBook.qml" line="74"/>
         <source>Payment ID &lt;font size=&apos;2&apos;&gt;(Optional)&lt;/font&gt;</source>
         <translation>Identificator plată &lt;font size=&apos;2&apos;&gt;(opțional)&lt;/font&gt;</translation>
     </message>
@@ -24,37 +24,37 @@
         <translation>4.. / 8..</translation>
     </message>
     <message>
-        <location filename="../pages/AddressBook.qml" line="74"/>
+        <location filename="../pages/AddressBook.qml" line="75"/>
         <source>Paste 64 hexadecimal characters</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/AddressBook.qml" line="82"/>
+        <location filename="../pages/AddressBook.qml" line="83"/>
         <source>Description &lt;font size=&apos;2&apos;&gt;(Optional)&lt;/font&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/AddressBook.qml" line="83"/>
+        <location filename="../pages/AddressBook.qml" line="84"/>
         <source>Give this entry a name or description</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/AddressBook.qml" line="91"/>
+        <location filename="../pages/AddressBook.qml" line="92"/>
         <source>Add</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/AddressBook.qml" line="96"/>
+        <location filename="../pages/AddressBook.qml" line="97"/>
         <source>Error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/AddressBook.qml" line="99"/>
+        <location filename="../pages/AddressBook.qml" line="100"/>
         <source>Invalid address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/AddressBook.qml" line="103"/>
+        <location filename="../pages/AddressBook.qml" line="104"/>
         <source>Can&apos;t create entry</source>
         <translation>Nu s-a putut crea înregistrarea</translation>
     </message>
@@ -319,7 +319,7 @@
 <context>
     <name>Keys</name>
     <message>
-        <location filename="../pages/Keys.qml" line="115"/>
+        <location filename="../pages/Keys.qml" line="116"/>
         <source>Mnemonic seed</source>
         <translation>Seed mnemonic</translation>
     </message>
@@ -332,59 +332,59 @@
 <context>
     <name>Keys</name>
     <message>
-        <location filename="../pages/Keys.qml" line="142"/>
+        <location filename="../pages/Keys.qml" line="143"/>
         <source>Keys</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="162"/>
+        <location filename="../pages/Keys.qml" line="163"/>
         <source>Double tap to copy</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="169"/>
+        <location filename="../pages/Keys.qml" line="170"/>
         <source>Keys copied to clipboard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="182"/>
+        <location filename="../pages/Keys.qml" line="183"/>
         <source>Export wallet</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="197"/>
-        <location filename="../pages/Keys.qml" line="237"/>
+        <location filename="../pages/Keys.qml" line="198"/>
+        <location filename="../pages/Keys.qml" line="238"/>
         <source>Spendable Wallet</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="206"/>
-        <location filename="../pages/Keys.qml" line="237"/>
+        <location filename="../pages/Keys.qml" line="207"/>
+        <location filename="../pages/Keys.qml" line="238"/>
         <source>View Only Wallet</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="247"/>
+        <location filename="../pages/Keys.qml" line="248"/>
         <source>Secret view key</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="248"/>
+        <location filename="../pages/Keys.qml" line="249"/>
         <source>Public view key</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="249"/>
+        <location filename="../pages/Keys.qml" line="250"/>
         <source>Secret spend key</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="250"/>
+        <location filename="../pages/Keys.qml" line="251"/>
         <source>Public spend key</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="262"/>
+        <location filename="../pages/Keys.qml" line="263"/>
         <source>(View Only Wallet -  No mnemonic seed available)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -617,12 +617,12 @@
 <context>
     <name>Mining</name>
     <message>
-        <location filename="../pages/Mining.qml" line="61"/>
+        <location filename="../pages/Mining.qml" line="62"/>
         <source>Solo mining</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="68"/>
+        <location filename="../pages/Mining.qml" line="69"/>
         <source>(only available for local daemons)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -632,72 +632,72 @@
         <translation>Minatul cu propriul calculator ajută la creșterea puterii rețelei Loki. Cu cât se minează mai mult, cu atât rețeaua e mai greu de atacat și fiecare miner ajută.&lt;br&gt; &lt;br&gt;Minatul îți oferă de asemenea o mică șansă de a câștiga un pic de Loki. Calculatorul tău va crea hash-uri în căutarea de soluții pentru blocuri. Dacă descoperi un bloc, primești recompensa aferentă. Succes!</translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="87"/>
+        <location filename="../pages/Mining.qml" line="88"/>
         <source>CPU threads</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="95"/>
+        <location filename="../pages/Mining.qml" line="96"/>
         <source>(optional)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="107"/>
+        <location filename="../pages/Mining.qml" line="108"/>
         <source>Background mining (experimental)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="121"/>
+        <location filename="../pages/Mining.qml" line="122"/>
         <source>Enable mining when running on battery</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="129"/>
+        <location filename="../pages/Mining.qml" line="130"/>
         <source>Manage miner</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="139"/>
+        <location filename="../pages/Mining.qml" line="140"/>
         <source>Start mining</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="145"/>
+        <location filename="../pages/Mining.qml" line="146"/>
         <source>Error starting mining</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="146"/>
+        <location filename="../pages/Mining.qml" line="147"/>
         <source>Couldn&apos;t start mining.&lt;br&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="148"/>
+        <location filename="../pages/Mining.qml" line="149"/>
         <source>Mining is only available on local daemons. Run a local daemon to be able to mine.&lt;br&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="161"/>
+        <location filename="../pages/Mining.qml" line="162"/>
         <source>Stop mining</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="172"/>
+        <location filename="../pages/Mining.qml" line="173"/>
         <source>Status: not mining</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="184"/>
+        <location filename="../pages/Mining.qml" line="185"/>
         <source>Mining at %1 H/s</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="187"/>
+        <location filename="../pages/Mining.qml" line="188"/>
         <source>Not mining</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="189"/>
+        <location filename="../pages/Mining.qml" line="190"/>
         <source>Status: </source>
         <translation type="unfinished"></translation>
     </message>
@@ -1042,8 +1042,8 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="157"/>
-        <location filename="../pages/Settings.qml" line="185"/>
+        <location filename="../pages/Settings.qml" line="158"/>
+        <location filename="../pages/Settings.qml" line="186"/>
         <source>Error</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1058,64 +1058,64 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="164"/>
+        <location filename="../pages/Settings.qml" line="165"/>
         <source>Successfully rescanned spent outputs.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="179"/>
+        <location filename="../pages/Settings.qml" line="180"/>
         <source>Change password</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="186"/>
+        <location filename="../pages/Settings.qml" line="187"/>
         <source>Wrong password</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="204"/>
+        <location filename="../pages/Settings.qml" line="205"/>
         <source>Wallet mode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="214"/>
+        <location filename="../pages/Settings.qml" line="215"/>
         <source>Local Node</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="225"/>
+        <location filename="../pages/Settings.qml" line="226"/>
         <source>Remote Node</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="237"/>
+        <location filename="../pages/Settings.qml" line="238"/>
         <source>Bootstrap node</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pages/Settings.qml" line="256"/>
-        <location filename="../pages/Settings.qml" line="288"/>
-        <source>Address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pages/Settings.qml" line="257"/>
         <location filename="../pages/Settings.qml" line="289"/>
+        <source>Address</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pages/Settings.qml" line="258"/>
+        <location filename="../pages/Settings.qml" line="290"/>
         <source>Port</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="309"/>
+        <location filename="../pages/Settings.qml" line="310"/>
         <source>Connect</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="331"/>
+        <location filename="../pages/Settings.qml" line="332"/>
         <source>Manage Daemon</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="354"/>
+        <location filename="../pages/Settings.qml" line="355"/>
         <source>Start Local Node</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1153,7 +1153,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="420"/>
+        <location filename="../pages/Settings.qml" line="421"/>
         <source>Change location</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1173,22 +1173,22 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="483"/>
+        <location filename="../pages/Settings.qml" line="484"/>
         <source>Layout settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="504"/>
+        <location filename="../pages/Settings.qml" line="505"/>
         <source>Custom decorations</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="514"/>
+        <location filename="../pages/Settings.qml" line="515"/>
         <source>Log level</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="589"/>
+        <location filename="../pages/Settings.qml" line="590"/>
         <source>(e.g. *:WARNING,net.p2p:DEBUG)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1198,7 +1198,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="627"/>
+        <location filename="../pages/Settings.qml" line="628"/>
         <source>GUI version: </source>
         <translation type="unfinished"></translation>
     </message>
@@ -1554,22 +1554,22 @@ Fișierul vechi de cache va fi redenumit și poate fi refolosit în viitor.
 <context>
     <name>Sign</name>
     <message>
-        <location filename="../pages/Sign.qml" line="60"/>
+        <location filename="../pages/Sign.qml" line="61"/>
         <source>Good signature</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="61"/>
+        <location filename="../pages/Sign.qml" line="62"/>
         <source>This is a good signature</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="65"/>
+        <location filename="../pages/Sign.qml" line="66"/>
         <source>Bad signature</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="66"/>
+        <location filename="../pages/Sign.qml" line="67"/>
         <source>This signature did not verify</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1586,43 +1586,43 @@ Fișierul vechi de cache va fi redenumit și poate fi refolosit în viitor.
         <translation>Semnează</translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="107"/>
+        <location filename="../pages/Sign.qml" line="108"/>
         <source>This page lets you sign/verify a message (or file contents) with your address.</source>
         <translation>Această pagină îți permite să semnezi/verifici un mesaj (sau conținutul unui fișier) cu adresa ta.</translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="125"/>
+        <location filename="../pages/Sign.qml" line="126"/>
         <source>Message</source>
         <translation>Mesaj</translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="155"/>
+        <location filename="../pages/Sign.qml" line="156"/>
         <source>Path to file</source>
         <translation>Calea către fișier</translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="169"/>
-        <location filename="../pages/Sign.qml" line="262"/>
+        <location filename="../pages/Sign.qml" line="170"/>
+        <location filename="../pages/Sign.qml" line="263"/>
         <source>Browse</source>
         <translation>Navighează</translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="221"/>
+        <location filename="../pages/Sign.qml" line="222"/>
         <source>Verify message</source>
         <translation>Verifică mesaj</translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="248"/>
+        <location filename="../pages/Sign.qml" line="249"/>
         <source>Verify file</source>
         <translation>Verifică fișier</translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="290"/>
+        <location filename="../pages/Sign.qml" line="291"/>
         <source>Address</source>
         <translation>Adresă</translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="319"/>
+        <location filename="../pages/Sign.qml" line="320"/>
         <source>Please choose a file to sign</source>
         <translation>Selectează un fișier pentru a fi semnat</translation>
     </message>
@@ -1634,7 +1634,7 @@ Fișierul vechi de cache va fi redenumit și poate fi refolosit în viitor.
         <translation>Verifică</translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="330"/>
+        <location filename="../pages/Sign.qml" line="331"/>
         <source>Please choose a file to verify</source>
         <translation>Selectează un fișier pentru a fi verificat</translation>
     </message>

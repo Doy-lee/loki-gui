@@ -19,42 +19,42 @@
         <translation>4.. / 8..</translation>
     </message>
     <message>
-        <location filename="../pages/AddressBook.qml" line="73"/>
+        <location filename="../pages/AddressBook.qml" line="74"/>
         <source>Payment ID &lt;font size=&apos;2&apos;&gt;(Optional)&lt;/font&gt;</source>
         <translation>ID platby&lt;font size=&apos;2&apos;&gt;(nepovinné)&lt;/font&gt;</translation>
     </message>
     <message>
-        <location filename="../pages/AddressBook.qml" line="74"/>
+        <location filename="../pages/AddressBook.qml" line="75"/>
         <source>Paste 64 hexadecimal characters</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/AddressBook.qml" line="82"/>
+        <location filename="../pages/AddressBook.qml" line="83"/>
         <source>Description &lt;font size=&apos;2&apos;&gt;(Optional)&lt;/font&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/AddressBook.qml" line="83"/>
+        <location filename="../pages/AddressBook.qml" line="84"/>
         <source>Give this entry a name or description</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/AddressBook.qml" line="91"/>
+        <location filename="../pages/AddressBook.qml" line="92"/>
         <source>Add</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/AddressBook.qml" line="96"/>
+        <location filename="../pages/AddressBook.qml" line="97"/>
         <source>Error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/AddressBook.qml" line="99"/>
+        <location filename="../pages/AddressBook.qml" line="100"/>
         <source>Invalid address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/AddressBook.qml" line="103"/>
+        <location filename="../pages/AddressBook.qml" line="104"/>
         <source>Can&apos;t create entry</source>
         <translation type="unfinished"></translation>
     </message>
@@ -319,7 +319,7 @@
 <context>
     <name>Keys</name>
     <message>
-        <location filename="../pages/Keys.qml" line="115"/>
+        <location filename="../pages/Keys.qml" line="116"/>
         <source>Mnemonic seed</source>
         <translation>Mnemonický seed</translation>
     </message>
@@ -332,59 +332,59 @@
 <context>
     <name>Keys</name>
     <message>
-        <location filename="../pages/Keys.qml" line="142"/>
+        <location filename="../pages/Keys.qml" line="143"/>
         <source>Keys</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="162"/>
+        <location filename="../pages/Keys.qml" line="163"/>
         <source>Double tap to copy</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="169"/>
+        <location filename="../pages/Keys.qml" line="170"/>
         <source>Keys copied to clipboard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="182"/>
+        <location filename="../pages/Keys.qml" line="183"/>
         <source>Export wallet</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="197"/>
-        <location filename="../pages/Keys.qml" line="237"/>
+        <location filename="../pages/Keys.qml" line="198"/>
+        <location filename="../pages/Keys.qml" line="238"/>
         <source>Spendable Wallet</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="206"/>
-        <location filename="../pages/Keys.qml" line="237"/>
+        <location filename="../pages/Keys.qml" line="207"/>
+        <location filename="../pages/Keys.qml" line="238"/>
         <source>View Only Wallet</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="247"/>
+        <location filename="../pages/Keys.qml" line="248"/>
         <source>Secret view key</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="248"/>
+        <location filename="../pages/Keys.qml" line="249"/>
         <source>Public view key</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="249"/>
+        <location filename="../pages/Keys.qml" line="250"/>
         <source>Secret spend key</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="250"/>
+        <location filename="../pages/Keys.qml" line="251"/>
         <source>Public spend key</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="262"/>
+        <location filename="../pages/Keys.qml" line="263"/>
         <source>(View Only Wallet -  No mnemonic seed available)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -617,12 +617,12 @@
 <context>
     <name>Mining</name>
     <message>
-        <location filename="../pages/Mining.qml" line="61"/>
+        <location filename="../pages/Mining.qml" line="62"/>
         <source>Solo mining</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="68"/>
+        <location filename="../pages/Mining.qml" line="69"/>
         <source>(only available for local daemons)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -652,7 +652,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="121"/>
+        <location filename="../pages/Mining.qml" line="122"/>
         <source>Enable mining when running on battery</source>
         <translation type="unfinished"></translation>
     </message>
@@ -851,7 +851,7 @@
         <translation>Zatím žádná nalezená transakce...</translation>
     </message>
     <message>
-        <location filename="../pages/Receive.qml" line="128"/>
+        <location filename="../pages/Receive.qml" line="129"/>
         <source>Transaction found</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1047,8 +1047,8 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Settings.qml" line="157"/>
-        <location filename="../pages/Settings.qml" line="185"/>
+        <location filename="../pages/Settings.qml" line="158"/>
+        <location filename="../pages/Settings.qml" line="186"/>
         <source>Error</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1462,22 +1462,22 @@ Starší soubor mezipaměti peněženky bude přejmenován a později jej lze ob
 <context>
     <name>Sign</name>
     <message>
-        <location filename="../pages/Sign.qml" line="60"/>
+        <location filename="../pages/Sign.qml" line="61"/>
         <source>Good signature</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="61"/>
+        <location filename="../pages/Sign.qml" line="62"/>
         <source>This is a good signature</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="65"/>
+        <location filename="../pages/Sign.qml" line="66"/>
         <source>Bad signature</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="66"/>
+        <location filename="../pages/Sign.qml" line="67"/>
         <source>This signature did not verify</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1494,43 +1494,43 @@ Starší soubor mezipaměti peněženky bude přejmenován a později jej lze ob
         <translation>Podepsat</translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="107"/>
+        <location filename="../pages/Sign.qml" line="108"/>
         <source>This page lets you sign/verify a message (or file contents) with your address.</source>
         <translation>Tato stránka umožňuje podepsat/ověřit zprávu (nebo obsah souboru) pomocí vaší adresy.</translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="125"/>
+        <location filename="../pages/Sign.qml" line="126"/>
         <source>Message</source>
         <translation>Zpráva</translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="155"/>
+        <location filename="../pages/Sign.qml" line="156"/>
         <source>Path to file</source>
         <translation>Cesta k souboru</translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="169"/>
-        <location filename="../pages/Sign.qml" line="262"/>
+        <location filename="../pages/Sign.qml" line="170"/>
+        <location filename="../pages/Sign.qml" line="263"/>
         <source>Browse</source>
         <translation>Procházet</translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="221"/>
+        <location filename="../pages/Sign.qml" line="222"/>
         <source>Verify message</source>
         <translation>Ověřit zprávu</translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="248"/>
+        <location filename="../pages/Sign.qml" line="249"/>
         <source>Verify file</source>
         <translation>Ověřit soubor</translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="290"/>
+        <location filename="../pages/Sign.qml" line="291"/>
         <source>Address</source>
         <translation>Adresa</translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="319"/>
+        <location filename="../pages/Sign.qml" line="320"/>
         <source>Please choose a file to sign</source>
         <translation>Prosím zvolte soubor k podpisu</translation>
     </message>
@@ -1542,7 +1542,7 @@ Starší soubor mezipaměti peněženky bude přejmenován a později jej lze ob
         <translation>Ověřit</translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="330"/>
+        <location filename="../pages/Sign.qml" line="331"/>
         <source>Please choose a file to verify</source>
         <translation>Prosím zvolte soubor k ověření</translation>
     </message>

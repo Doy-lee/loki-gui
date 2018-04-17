@@ -14,7 +14,7 @@
         <translation>QRコード</translation>
     </message>
     <message>
-        <location filename="../pages/AddressBook.qml" line="73"/>
+        <location filename="../pages/AddressBook.qml" line="74"/>
         <source>Payment ID &lt;font size=&apos;2&apos;&gt;(Optional)&lt;/font&gt;</source>
         <translation>ペイメントID &lt;font size=&apos;2&apos;&gt;(オプショナル)&lt;/font&gt;</translation>
     </message>
@@ -24,37 +24,37 @@
         <translation>4.. / 8..</translation>
     </message>
     <message>
-        <location filename="../pages/AddressBook.qml" line="74"/>
+        <location filename="../pages/AddressBook.qml" line="75"/>
         <source>Paste 64 hexadecimal characters</source>
         <translation>64文字の16進数の文字列</translation>
     </message>
     <message>
-        <location filename="../pages/AddressBook.qml" line="82"/>
+        <location filename="../pages/AddressBook.qml" line="83"/>
         <source>Description &lt;font size=&apos;2&apos;&gt;(Optional)&lt;/font&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/AddressBook.qml" line="83"/>
+        <location filename="../pages/AddressBook.qml" line="84"/>
         <source>Give this entry a name or description</source>
         <translation>この項目の名前や説明</translation>
     </message>
     <message>
-        <location filename="../pages/AddressBook.qml" line="91"/>
+        <location filename="../pages/AddressBook.qml" line="92"/>
         <source>Add</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/AddressBook.qml" line="96"/>
+        <location filename="../pages/AddressBook.qml" line="97"/>
         <source>Error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/AddressBook.qml" line="99"/>
+        <location filename="../pages/AddressBook.qml" line="100"/>
         <source>Invalid address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/AddressBook.qml" line="103"/>
+        <location filename="../pages/AddressBook.qml" line="104"/>
         <source>Can&apos;t create entry</source>
         <translation type="unfinished"></translation>
     </message>
@@ -324,7 +324,7 @@
 <context>
     <name>Keys</name>
     <message>
-        <location filename="../pages/Keys.qml" line="115"/>
+        <location filename="../pages/Keys.qml" line="116"/>
         <source>Mnemonic seed</source>
         <translation>ニーモニックシード</translation>
     </message>
@@ -337,59 +337,59 @@
 <context>
     <name>Keys</name>
     <message>
-        <location filename="../pages/Keys.qml" line="142"/>
+        <location filename="../pages/Keys.qml" line="143"/>
         <source>Keys</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="162"/>
+        <location filename="../pages/Keys.qml" line="163"/>
         <source>Double tap to copy</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="169"/>
+        <location filename="../pages/Keys.qml" line="170"/>
         <source>Keys copied to clipboard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="182"/>
+        <location filename="../pages/Keys.qml" line="183"/>
         <source>Export wallet</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="197"/>
-        <location filename="../pages/Keys.qml" line="237"/>
+        <location filename="../pages/Keys.qml" line="198"/>
+        <location filename="../pages/Keys.qml" line="238"/>
         <source>Spendable Wallet</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="206"/>
-        <location filename="../pages/Keys.qml" line="237"/>
+        <location filename="../pages/Keys.qml" line="207"/>
+        <location filename="../pages/Keys.qml" line="238"/>
         <source>View Only Wallet</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="247"/>
+        <location filename="../pages/Keys.qml" line="248"/>
         <source>Secret view key</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="248"/>
+        <location filename="../pages/Keys.qml" line="249"/>
         <source>Public view key</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="249"/>
+        <location filename="../pages/Keys.qml" line="250"/>
         <source>Secret spend key</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="250"/>
+        <location filename="../pages/Keys.qml" line="251"/>
         <source>Public spend key</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Keys.qml" line="262"/>
+        <location filename="../pages/Keys.qml" line="263"/>
         <source>(View Only Wallet -  No mnemonic seed available)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -576,12 +576,12 @@
 <context>
     <name>Mining</name>
     <message>
-        <location filename="../pages/Mining.qml" line="61"/>
+        <location filename="../pages/Mining.qml" line="62"/>
         <source>Solo mining</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="68"/>
+        <location filename="../pages/Mining.qml" line="69"/>
         <source>(only available for local daemons)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -591,72 +591,72 @@
         <translation>あなたのコンピュータでマイニングを行うことで、Lokiのネットワークをより強固にすることができます。マイニングをする人が増えるほど、ネットワークへの攻撃が難しくなります。一人一人の協力が大切です。&lt;br&gt; &lt;br&gt;マイニングをすると、低確率ですがLokiを獲得できる可能性があります。あなたのコンピュータは、ある計算問題の解となるブロックとそのハッシュ値を計算します。正解のブロックが見つかると、あなたはそれに伴う報酬を得ます。グッドラック!</translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="87"/>
+        <location filename="../pages/Mining.qml" line="88"/>
         <source>CPU threads</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="95"/>
+        <location filename="../pages/Mining.qml" line="96"/>
         <source>(optional)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="107"/>
+        <location filename="../pages/Mining.qml" line="108"/>
         <source>Background mining (experimental)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="121"/>
+        <location filename="../pages/Mining.qml" line="122"/>
         <source>Enable mining when running on battery</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="129"/>
+        <location filename="../pages/Mining.qml" line="130"/>
         <source>Manage miner</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="139"/>
+        <location filename="../pages/Mining.qml" line="140"/>
         <source>Start mining</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="145"/>
+        <location filename="../pages/Mining.qml" line="146"/>
         <source>Error starting mining</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="146"/>
+        <location filename="../pages/Mining.qml" line="147"/>
         <source>Couldn&apos;t start mining.&lt;br&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="148"/>
+        <location filename="../pages/Mining.qml" line="149"/>
         <source>Mining is only available on local daemons. Run a local daemon to be able to mine.&lt;br&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="161"/>
+        <location filename="../pages/Mining.qml" line="162"/>
         <source>Stop mining</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="172"/>
+        <location filename="../pages/Mining.qml" line="173"/>
         <source>Status: not mining</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="184"/>
+        <location filename="../pages/Mining.qml" line="185"/>
         <source>Mining at %1 H/s</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="187"/>
+        <location filename="../pages/Mining.qml" line="188"/>
         <source>Not mining</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pages/Mining.qml" line="189"/>
+        <location filename="../pages/Mining.qml" line="190"/>
         <source>Status: </source>
         <translation type="unfinished"></translation>
     </message>
@@ -1418,22 +1418,22 @@ The old wallet cache file will be renamed and can be restored later.
         <translation>分離したブロック高:</translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="60"/>
+        <location filename="../pages/Sign.qml" line="61"/>
         <source>Good signature</source>
         <translation>正しい署名</translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="61"/>
+        <location filename="../pages/Sign.qml" line="62"/>
         <source>This is a good signature</source>
         <translation>これは正しい署名です</translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="65"/>
+        <location filename="../pages/Sign.qml" line="66"/>
         <source>Bad signature</source>
         <translation>不正な署名</translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="66"/>
+        <location filename="../pages/Sign.qml" line="67"/>
         <source>This signature did not verify</source>
         <translation>この署名は不正です</translation>
     </message>
@@ -1446,50 +1446,50 @@ The old wallet cache file will be renamed and can be restored later.
         <translation>署名するメッセージ</translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="103"/>
-        <location filename="../pages/Sign.qml" line="137"/>
-        <location filename="../pages/Sign.qml" line="181"/>
+        <location filename="../pages/Sign.qml" line="104"/>
+        <location filename="../pages/Sign.qml" line="138"/>
+        <location filename="../pages/Sign.qml" line="182"/>
         <source>Sign</source>
         <translation>署名を生成</translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="107"/>
+        <location filename="../pages/Sign.qml" line="108"/>
         <source>This page lets you sign/verify a message (or file contents) with your address.</source>
         <translation>このページではメッセージ(またはファイルの内容)とアドレスで署名と検証ができます。</translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="125"/>
+        <location filename="../pages/Sign.qml" line="126"/>
         <source>Message</source>
         <translation>メッセージ</translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="155"/>
+        <location filename="../pages/Sign.qml" line="156"/>
         <source>Path to file</source>
         <translation>ファイルパス</translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="169"/>
-        <location filename="../pages/Sign.qml" line="262"/>
+        <location filename="../pages/Sign.qml" line="170"/>
+        <location filename="../pages/Sign.qml" line="263"/>
         <source>Browse</source>
         <translation>選択</translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="221"/>
+        <location filename="../pages/Sign.qml" line="222"/>
         <source>Verify message</source>
         <translation>メッセージを検証</translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="248"/>
+        <location filename="../pages/Sign.qml" line="249"/>
         <source>Verify file</source>
         <translation>ファイルを検証</translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="290"/>
+        <location filename="../pages/Sign.qml" line="291"/>
         <source>Address</source>
         <translation>アドレス</translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="319"/>
+        <location filename="../pages/Sign.qml" line="320"/>
         <source>Please choose a file to sign</source>
         <translation>署名するファイルを選択してください</translation>
     </message>
@@ -1514,7 +1514,7 @@ The old wallet cache file will be renamed and can be restored later.
         <translation>検証するメッセージ</translation>
     </message>
     <message>
-        <location filename="../pages/Sign.qml" line="330"/>
+        <location filename="../pages/Sign.qml" line="331"/>
         <source>Please choose a file to verify</source>
         <translation>検証するファイルを選択してください</translation>
     </message>
@@ -1958,7 +1958,7 @@ Ringsize: </source>
         <translation>トランザクションを証明</translation>
     </message>
     <message>
-        <location filename="../pages/TxKey.qml" line="70"/>
+        <location filename="../pages/TxKey.qml" line="71"/>
         <source>Generate a proof of your incoming/outgoing payment by supplying the transaction ID, the recipient address and an optional message. 
 For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that proves the authorship of a transaction. In this case, you don&apos;t need to specify the recipient address.</source>
         <translation type="unfinished"></translation>

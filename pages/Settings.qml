@@ -1,3 +1,4 @@
+// Copyright (c) 2018, The Loki Project
 // Copyright (c) 2014-2018, The Monero Project
 // 
 // All rights reserved.
@@ -37,7 +38,7 @@ import "../js/Utils.js" as Utils
 
 
 import "../components"
-import moneroComponents.Clipboard 1.0
+import LokiComponents.Clipboard 1.0
 
 Rectangle {
     property bool viewOnly: false

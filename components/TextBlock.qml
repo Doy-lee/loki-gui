@@ -1,11 +1,11 @@
 import QtQuick 2.0
 
-import "../components" as MoneroComponents
+import "../components" as LokiComponents
 
 TextEdit {
-    color: MoneroComponents.Style.defaultFontColor
-    font.family: MoneroComponents.Style.fontRegular.name
-    selectionColor: MoneroComponents.Style.dimmedFontColor
+    color: LokiComponents.Style.defaultFontColor
+    font.family: LokiComponents.Style.fontRegular.name
+    selectionColor: LokiComponents.Style.dimmedFontColor
     wrapMode: Text.Wrap
     readOnly: true
     selectByMouse: true

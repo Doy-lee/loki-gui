@@ -1,3 +1,4 @@
+// Copyright (c) 2018, The Loki Project
 // Copyright (c) 2014-2018, The Monero Project
 //
 // All rights reserved.
@@ -33,7 +34,7 @@ import QtQuick.Layouts 1.1
 import QtQuick.Controls.Styles 1.4
 import QtQuick.Window 2.2
 
-import "../components" as MoneroComponents
+import "../components" as LokiComponents
 import "../js/Windows.js" as Windows
 import "../js/Utils.js" as Utils
 
@@ -171,7 +172,7 @@ Window {
         RowLayout {
             Layout.fillWidth: true
 
-            MoneroComponents.LineEdit {
+            LokiComponents.LineEdit {
                 id: sendCommandText
                 Layout.fillWidth: true
                 placeholderText: qsTr("command + enter (e.g help)") + translationManager.emptyString
