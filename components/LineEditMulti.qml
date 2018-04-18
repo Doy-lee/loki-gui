@@ -133,7 +133,6 @@ ColumnLayout {
                   return Loki.Style.inputBorderColorInActive;
               }
             }
-            radius: 4
             anchors.fill: parent
             visible: lineditmulti.showBorder
         }
