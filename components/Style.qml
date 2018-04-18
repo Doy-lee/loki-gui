@@ -10,6 +10,11 @@ QtObject {
 
     property string grey: "#404040"
 
+    property string heroGreen: "#008522"
+    property string lightGreen: "#78BE20"
+    property string darkTurquoise: "#005f61"
+    property string darkNavy: "#00263a"
+
     property string defaultFontColor: "white"
     property string greyFontColor: "#808080"
     property string dimmedFontColor: "#BBBBBB"
@@ -21,12 +26,12 @@ QtObject {
     property string inputBorderColorInActive: Qt.rgba(255, 255, 255, 0.32)
     property string inputBorderColorInvalid: Qt.rgba(255, 0, 0, 0.40)
 
-    property string buttonBackgroundColor: "#78BE20"
+    property string buttonBackgroundColor: heroGreen
     property string buttonBackgroundColorHover: "#7ECA22"
     property string buttonBackgroundColorDisabled: "#707070"
     property string buttonBackgroundColorDisabledHover: "#808080"
-    property string buttonTextColor: "#1A1A1A"
-    property string buttonTextColorDisabled: "#1A1A1A"
-    property string dividerColor: "white"
-    property real dividerOpacity: 0.20
+    property string buttonTextColor: "white"
+    property string buttonTextColorDisabled: "white"
+    property string dividerColor: heroGreen
+    property real dividerOpacity: 1.00
 }

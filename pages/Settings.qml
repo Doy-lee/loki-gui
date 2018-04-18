@@ -69,26 +69,11 @@ Rectangle {
         spacing: 26 * scaleRatio
 
         //! Manage wallet
-        RowLayout {
-            Layout.fillWidth: true
-            Label {
-                id: manageWalletLabel
-                fontSize: 22 * scaleRatio
-                Layout.fillWidth: true
-                text: qsTr("Manage Wallet") + translationManager.emptyString
-                Layout.topMargin: 10 * scaleRatio
-            }
-
-            Rectangle {
-                anchors.top: manageWalletLabel.bottom
-                anchors.topMargin: 4
-                anchors.left: parent.left
-                anchors.right: parent.right
-                Layout.fillWidth: true
-                height: 2
-                color: Style.dividerColor
-                opacity: Style.dividerOpacity
-            }
+        LabelHeader {
+            id: manageWalletLabel
+            fontSize: 22 * scaleRatio
+            text: qsTr("Manage Wallet") + translationManager.emptyString
+            Layout.topMargin: 10 * scaleRatio
         }
 
         GridLayout {
@@ -326,25 +311,11 @@ Rectangle {
         }
 
         //! Manage daemon
-        RowLayout {
+        LabelHeader {
             visible: !isMobile
-
-            Label {
-                id: manageDaemonLabel
-                fontSize: 22 * scaleRatio
-                text: qsTr("Manage Daemon") + translationManager.emptyString
-            }
-
-            Rectangle {
-                anchors.top: manageDaemonLabel.bottom
-                anchors.topMargin: 4
-                anchors.left: parent.left
-                anchors.right: parent.right
-                Layout.fillWidth: true
-                height: 2
-                color: Style.dividerColor
-                opacity: Style.dividerOpacity
-            }
+            id: manageDaemonLabel
+            fontSize: 22 * scaleRatio
+            text: qsTr("Manage Daemon") + translationManager.emptyString
         }
 
         GridLayout {
@@ -479,24 +450,11 @@ Rectangle {
             }
         }
 
-        RowLayout {
+        LabelHeader {
             visible: !isMobile
-            Label {
-                id: layoutSettingsLabel
-                fontSize: 22 * scaleRatio
-                text: qsTr("Layout settings") + translationManager.emptyString
-            }
-
-            Rectangle {
-                anchors.top: layoutSettingsLabel.bottom
-                anchors.topMargin: 4
-                anchors.left: parent.left
-                anchors.right: parent.right
-                Layout.fillWidth: true
-                height: 2
-                color: Style.dividerColor
-                opacity: Style.dividerOpacity
-            }
+            id: layoutSettingsLabel
+            fontSize: 22 * scaleRatio
+            text: qsTr("Layout Settings") + translationManager.emptyString
         }
 
         RowLayout {
@@ -510,24 +468,10 @@ Rectangle {
         }
 
         // Log level
-
-        RowLayout {
-            Label {
-                id: logLevelLabel
-                fontSize: 22 * scaleRatio
-                text: qsTr("Log Level") + translationManager.emptyString
-            }
-
-            Rectangle {
-                anchors.top: logLevelLabel.bottom
-                anchors.topMargin: 4
-                anchors.left: parent.left
-                anchors.right: parent.right
-                Layout.fillWidth: true
-                height: 2
-                color: Style.dividerColor
-                opacity: Style.dividerOpacity
-            }
+        LabelHeader {
+            id: logLevelLabel
+            fontSize: 22 * scaleRatio
+            text: qsTr("Log Level") + translationManager.emptyString
         }
 
         GridLayout {
@@ -603,25 +547,12 @@ Rectangle {
         }
 
         // Version
-        RowLayout {
-            Label {
-                id: debugLabel
-                text: qsTr("Debug info") + translationManager.emptyString
-                fontSize: 22
-                anchors.topMargin: 30 * scaleRatio
-                Layout.topMargin: 30 * scaleRatio
-            }
-
-            Rectangle {
-                anchors.top: debugLabel.bottom
-                anchors.topMargin: 4
-                anchors.left: parent.left
-                anchors.right: parent.right
-                Layout.fillWidth: true
-                height: 2
-                color: Style.dividerColor
-                opacity: Style.dividerOpacity
-            }
+        LabelHeader {
+            id: debugLabel
+            text: qsTr("Debug Info") + translationManager.emptyString
+            fontSize: 22
+            anchors.topMargin: 30 * scaleRatio
+            Layout.topMargin: 30 * scaleRatio
         }
 
         GridLayout {
