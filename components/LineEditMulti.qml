@@ -126,11 +126,11 @@ ColumnLayout {
             border.width: 1
             border.color: {
               if(multiLine.error && multiLine.text !== ""){
-                  return MoneroComponents.Style.inputBorderColorInvalid;
-              } else if(multiLine.activeFocus){
-                  return MoneroComponents.Style.inputBorderColorActive;
+                  return Qt.rgba(255, 0, 0, 0.45);
+              } else if(multiLine.activeFocus) {
+                  return "#78BE20";
               } else {
-                  return MoneroComponents.Style.inputBorderColorInActive;
+                  return Loki.Style.inputBorderColorInActive;
               }
             }
             radius: 4

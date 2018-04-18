@@ -82,7 +82,13 @@ Item {
         Rectangle {
             color: dropdown.colorHeaderBackground
             border.width: dropdown.headerBorder ? 1 : 0
-            border.color: dropdown.colorBorder
+            border.color: {
+                if (dropdown.expanded) {
+                    return "#78BE20";
+                } else {
+                    return Qt.rgba(255, 255, 255, 0.25);
+                }
+            }
             radius: 4
             anchors.fill: parent
         }

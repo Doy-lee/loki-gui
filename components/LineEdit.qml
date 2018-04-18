@@ -53,9 +53,9 @@ Item {
     property bool copyButton: false
     property string borderColor: {
         if(input.activeFocus){
-            return MoneroComponents.Style.inputBorderColorActive;
+            return "#78BE20";
         } else {
-            return MoneroComponents.Style.inputBorderColorInActive;
+            return Loki.Style.inputBorderColorInActive;
         }
     }
     property bool borderDisabled: false
