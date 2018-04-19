@@ -47,6 +47,7 @@ Window {
     property alias content: root.text
     property alias textArea: dialogContent
     property var icon
+    color: LokiComponents.Style.backgroundColor
 
     // same signals as Dialog has
     signal accepted()

@@ -580,7 +580,7 @@ Rectangle {
             TextBlock {
                 font.pixelSize: 14
                 font.bold: true
-                text: Version.GUI_MONERO_VERSION + translationManager.emptyString
+                text: Version.GUI_LOKI_VERSION + translationManager.emptyString
             }
 
             TextBlock {
