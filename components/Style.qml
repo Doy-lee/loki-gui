@@ -11,7 +11,11 @@ QtObject {
     property string grey: "#404040"
 
     property string heroGreen: "#008522"
+    property string heroGreenHovered: "#006E1C"
+
     property string lightGreen: "#78BE20"
+    property string lightGreenHovered: "#6CAC1E"
+
     property string darkTurquoise: "#005f61"
     property string darkNavy: "#00263a"
 
@@ -21,13 +25,14 @@ QtObject {
     property string inputBoxBackground: "black"
     property string inputBoxBackgroundError: "#FFDDDD"
     property string inputBoxColor: "white"
+
     property string legacy_placeholderFontColor: "#BABABA"
     property string inputBorderColorActive: Qt.rgba(255, 255, 255, 0.38)
     property string inputBorderColorInActive: Qt.rgba(255, 255, 255, 0.32)
     property string inputBorderColorInvalid: Qt.rgba(255, 0, 0, 0.40)
 
     property string buttonBackgroundColor: heroGreen
-    property string buttonBackgroundColorHover: "#006E1C"
+    property string buttonBackgroundColorHover: heroGreenHovered
 
     property string buttonBackgroundColorDisabled: "#707070"
     property string buttonBackgroundColorDisabledHover: "#808080"
