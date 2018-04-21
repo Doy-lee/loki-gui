@@ -1810,7 +1810,7 @@ ApplicationWindow {
         id: daemonConsolePopup
         height:500
         width:800
-        title: qsTr("Daemon log") + translationManager.emptyString
+        title: qsTr("Daemon Log") + translationManager.emptyString
         onAccepted: {
             close();
         }
