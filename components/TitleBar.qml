@@ -53,7 +53,7 @@ Rectangle {
     property bool showMinimizeButton: false
     property bool showMaximizeButton: false
     property bool showCloseButton: true
-    property bool showMoneroLogo: false
+    property bool showLokiLogo: false
     property bool small: false
 
     signal closeClicked
@@ -80,7 +80,7 @@ Rectangle {
         width: 125
         height: parent.height
         anchors.centerIn: parent
-        visible: customDecorations && showMoneroLogo
+        visible: customDecorations && showLokiLogo
         z: parent.z + 1
 
         Image {
@@ -93,7 +93,7 @@ Rectangle {
 
     Label {
         id: titleLabel
-        visible: !showMoneroLogo && customDecorations && titleBar.title !== ''
+        visible: !showLokiLogo && customDecorations && titleBar.title !== ''
         anchors.centerIn: parent
         fontSize: 18
         text: titleBar.title
