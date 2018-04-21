@@ -106,8 +106,8 @@ Window {
                     anchors.fill: parent
                     font.family: "Ariel"
                     font.pixelSize: 14 * scaleRatio
-                    color: MoneroComponents.Style.defaultFontColor
-                    selectionColor: MoneroComponents.Style.dimmedFontColor
+                    color: Loki.Style.defaultFontColor
+                    selectionColor: Loki.Style.dimmedFontColor
                     wrapMode: TextEdit.Wrap
                     readOnly: true
                     background: Rectangle {
@@ -150,11 +150,6 @@ Window {
                         var _timestamp = log_color("[" + timestamp + "]", "#FFFFFF");
                         var _msg = log_color(msg, color);
                         textArea.append(_timestamp + " " + _msg);
-
-                        // scroll to bottom
-                        //if(flickable.contentHeight > content.height){
-                        //    flickable.contentY = flickable.contentHeight + 20;
-                        //}
                     }
                 }
 
@@ -176,7 +171,7 @@ Window {
             LokiComponents.LineEdit {
                 id: sendCommandText
                 Layout.fillWidth: true
-                placeholderText: qsTr("command + enter (e.g help)") + translationManager.emptyString
+                placeholderText: qsTr("Command + Enter (e.g Help)") + translationManager.emptyString
                 onAccepted: {
                     if(text.length > 0) {
                         textArea.logCommand(">>> " + text)
