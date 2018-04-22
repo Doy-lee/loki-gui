@@ -237,8 +237,9 @@ Rectangle {
               id: addressLine
               spacing: 0
               fontBold: true
-              labelText: qsTr("<style type='text/css'>a {text-decoration: none; color: #78BE20; font-size: 14px;}</style> Address <a href='#'>(Address Book)</a>") + translationManager.emptyString
-              labelButtonText: qsTr("Resolve") + translationManager.emptyString
+              labelText: qsTr("<style type='text/css'>a {text-decoration: none; color: #78BE20; font-size: 14px;}</style>\
+                Address <font size='2'></font><a href='#'>(Address Book)</a><font size='2'></font>")
+                + translationManager.emptyString
               placeholderText: "L.."
               onInputLabelLinkActivated: { appWindow.showPageRequest("AddressBook") }
           }
