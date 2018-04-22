@@ -73,7 +73,6 @@ Rectangle {
         id: mainLayout
         anchors.margins: (isMobile)? 17 : 20
         anchors.topMargin: 40 * scaleRatio
-
         anchors.left: parent.left
         anchors.top: parent.top
         anchors.right: parent.right
@@ -95,7 +94,7 @@ Rectangle {
         }
 
         Text {
-            text: qsTr("This page allows you to interact with the shared ring database.<br>" +
+            text: qsTr("This page allows you to interact with the shared ring database. " +
                        "This database is meant for use by Loki wallets as well as wallets from Loki clones which reuse the Loki keys.") + translationManager.emptyString
             wrapMode: Text.Wrap
             Layout.fillWidth: true
@@ -108,7 +107,7 @@ Rectangle {
             Layout.fillWidth: true
             textFormat: Text.RichText
             text: "<style type='text/css'>a {text-decoration: none; color: #78BE20; font-size: 14px;}</style>" +
-                  qsTr("Blackballed Outputs") + " <a href='#'>(" + qsTr("Help") + ")</a>" + translationManager.emptyString
+                  qsTr("Blackballed Outputs") + "<a href='#'>(" + qsTr("Help") + ")</a>" + translationManager.emptyString
             onLinkActivated: {
                 sharedRingDBDialog.title  = qsTr("Blackballed Outputs") + translationManager.emptyString;
                 sharedRingDBDialog.text = qsTr(
@@ -160,7 +159,7 @@ Rectangle {
                     fontSize: mainLayout.lineEditFontSize
                     placeholderText: qsTr("Path to file") + "..." + translationManager.emptyString
                     labelFontSize: 14 * scaleRatio
-                    labelText: qsTr("Filename with outputs to blackball") + ":" + translationManager.emptyString
+                    labelText: qsTr("Filename With Outputs To Blackball") + translationManager.emptyString
                     copyButton: true
                     readOnly: false
                 }
@@ -200,7 +199,7 @@ Rectangle {
                     id: blackballOutputLine
                     fontSize: mainLayout.lineEditFontSize
                     labelFontSize: 14 * scaleRatio
-                    labelText: qsTr("Or manually blackball/unblackball a single output:") + translationManager.emptyString
+                    labelText: qsTr("Or Manually Blackball/Unblackball A Single Output") + translationManager.emptyString
                     placeholderText: qsTr("Paste output public key") + "..." + translationManager.emptyString
                     readOnly: false
                     copyButton: true
@@ -273,7 +272,7 @@ Rectangle {
                 id: keyImageLine
                 fontSize: mainLayout.lineEditFontSize
                 labelFontSize: 14 * scaleRatio
-                labelText: qsTr("Key image") + ":" + translationManager.emptyString
+                labelText: qsTr("Key Image") + translationManager.emptyString
                 placeholderText: qsTr("Paste key image") + "..." + translationManager.emptyString
                 readOnly: false
                 copyButton: true
@@ -294,7 +293,7 @@ Rectangle {
                         Layout.fillWidth: true
                         fontSize: mainLayout.lineEditFontSize
                         labelFontSize: 14 * scaleRatio
-                        labelText: qsTr("Get ring") + ":" + translationManager.emptyString
+                        labelText: qsTr("Get Ring") + translationManager.emptyString
                         readOnly: true
                         copyButton: true
                     }
@@ -329,7 +328,7 @@ Rectangle {
                         Layout.fillWidth: true
                         fontSize: mainLayout.lineEditFontSize
                         labelFontSize: 14 * scaleRatio
-                        labelText: qsTr("Set ring") + ":" + translationManager.emptyString
+                        labelText: qsTr("Set Ring") + translationManager.emptyString
                         readOnly: false
                         copyButton: true
                     }
@@ -390,12 +389,6 @@ Rectangle {
                 text: qsTr("Relative") + translationManager.emptyString
                 checkedIcon: "../images/CheckedGreenIcon.png"
                 uncheckedIcon: "../images/uncheckedIcon.png"
-                onClicked: {
-                    persistentSettings.segregatePreForkOutputs = segregatePreForkOutputs.checked
-                    if (appWindow.currentWallet) {
-                        appWindow.currentWallet.segregatePreForkOutputs(segregatePreForkOutputs.checked)
-                    }
-                }
             }
         }
 
@@ -409,7 +402,7 @@ Rectangle {
                 id: segregationHeightLine
                 readOnly: false
                 labelFontSize: 14 * scaleRatio
-                labelText: qsTr("Segregation height:") + translationManager.emptyString
+                labelText: qsTr("Segregation Height") + translationManager.emptyString
                 Layout.fillWidth: true
                 validator: IntValidator { bottom: 0 }
                 onEditingFinished: {
