@@ -145,6 +145,20 @@ int main(int argc, char *argv[])
                          << "x" << rect.height() << " - dpi: " << dpi << " - ratio:"
                          << calculated_ratio;
 
+    // screen settings
+    // Mobile is designed on 128dpi
+    qreal ref_dpi = 128;
+    QRect geo = QApplication::desktop()->availableGeometry();
+    QRect rect = QGuiApplication::primaryScreen()->geometry();
+    qreal dpi = QGuiApplication::primaryScreen()->logicalDotsPerInch();
+    qreal physicalDpi = QGuiApplication::primaryScreen()->physicalDotsPerInch();
+    qreal calculated_ratio = physicalDpi/ref_dpi;
+
+    qWarning().nospace() << "Qt:" << QT_VERSION_STR << " | screen: " << rect.width()
+                         << "x" << rect.height() << " - dpi: " << dpi << " - ratio:"
+                         << calculated_ratio;
+
+
     // registering types for QML
     qmlRegisterType<clipboardAdapter>("LokiComponents.Clipboard", 1, 0, "Clipboard");
 
@@ -251,7 +265,6 @@ int main(int argc, char *argv[])
 #else
     engine.rootContext()->setContextProperty("scaleRatio", 1);
 #endif
-
 
     if (!lokiAccountsRootDir.empty()) {
         QString lokiAccountsDir = lokiAccountsRootDir.at(0) + "/Loki/wallets";
