@@ -101,8 +101,6 @@ int main(int argc, char *argv[])
 
     MainApp app(argc, argv);
 
-    qDebug() << "app startd";
-
     app.setApplicationName("loki-gui");
     app.setOrganizationDomain("loki.network");
     app.setOrganizationName("loki-project");
@@ -126,7 +124,7 @@ int main(int argc, char *argv[])
 
     // Log settings
     const QString logPath = getLogPath(parser.value(logPathOption));
-    Monero::Wallet::init(argv[0], "monero-wallet-gui", logPath.toStdString().c_str(), true);
+    Monero::Wallet::init(argv[0], "loki-wallet-gui", logPath.toStdString().c_str(), true);
     qInstallMessageHandler(messageHandler);
 
 
