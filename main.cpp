@@ -237,17 +237,9 @@ int main(int argc, char *argv[])
 //  to save the wallet file (.keys, .bin), they have to be user-accessible for
 //  backups - I reckon we save that in My Documents\Loki Accounts\ on
 //  Windows, ~/Loki Accounts/ on nix / osx
-    bool isWindows = false;
-    bool isIOS = false;
-    bool isMac = false;
-    bool isAndroid = false;
-#ifdef Q_OS_WIN
-    isWindows = true;
+#if defined (Q_OS_WIN) || defined(Q_OS_IOS)
     QStringList lokiAccountsRootDir = QStandardPaths::standardLocations(QStandardPaths::DocumentsLocation);
-#elif defined(Q_OS_IOS)
-    isIOS = true;
-    QStringList lokiAccountsRootDir = QStandardPaths::standardLocations(QStandardPaths::DocumentsLocation);
-#elif defined(Q_OS_UNIX)
+#else
     QStringList lokiAccountsRootDir = QStandardPaths::standardLocations(QStandardPaths::HomeLocation);
 #endif
 
