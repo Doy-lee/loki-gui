@@ -145,7 +145,6 @@ int main(int argc, char *argv[])
                          << "x" << rect.height() << " - dpi: " << dpi << " - ratio:"
                          << calculated_ratio;
 
-
     // registering types for QML
     qmlRegisterType<clipboardAdapter>("LokiComponents.Clipboard", 1, 0, "Clipboard");
 
