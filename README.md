@@ -1,6 +1,7 @@
 # Loki GUI
 
 Copyright (c) 2018 The Loki Project
+
 Portions Copyright (c) 2014-2018, The Monero Project
 
 ## Development resources
@@ -35,11 +36,11 @@ As with many development projects, the repository on Github is considered to be 
 
   - For Debian distributions (Debian, Ubuntu, Mint, Tails...)
 
-	`sudo apt install build-essential cmake libboost-all-dev miniupnpc libunbound-dev graphviz doxygen libunwind8-dev pkg-config libssl-dev libzmq3-dev`
+    `sudo apt install build-essential cmake libboost-all-dev miniupnpc libunbound-dev graphviz doxygen libunwind8-dev pkg-config libssl-dev libzmq3-dev`
 
   - For Gentoo
 
-	`sudo emerge app-arch/xz-utils app-doc/doxygen dev-cpp/gtest dev-libs/boost dev-libs/expat dev-libs/openssl dev-util/cmake media-gfx/graphviz net-dns/unbound net-libs/ldns net-libs/miniupnpc net-libs/zeromq sys-libs/libunwind`
+    `sudo emerge app-arch/xz-utils app-doc/doxygen dev-cpp/gtest dev-libs/boost dev-libs/expat dev-libs/openssl dev-util/cmake media-gfx/graphviz net-dns/unbound net-libs/ldns net-libs/miniupnpc net-libs/zeromq sys-libs/libunwind`
 
 2. Install Qt:
 
@@ -101,10 +102,10 @@ The executable can be found in the build/release/bin folder.
 
 4. Install Qt:
 
-  `brew install qt5`  (or download QT 5.8+ from [qt.io](https://www.qt.io/download-open-source/))
+  `brew install qt5`  (or download QT 5.7.1+ from [qt.io](https://www.qt.io/download-open-source/))
 
   If you have an older version of Qt installed via homebrew, you can force it to use 5.x like so:
-  
+
   `brew link --force --overwrite qt5`
 
 5. Add the Qt bin directory to your path
@@ -129,7 +130,7 @@ The executable can be found in the `build/release/bin` folder.
 
 **Note:** Workaround for "ERROR: Xcode not set up properly"
 
-Edit `$HOME/Qt/5.8/clang_64/mkspecs/features/mac/default_pre.prf`
+Edit `$HOME/Qt/5.7/clang_64/mkspecs/features/mac/default_pre.prf`
 
 replace
 `isEmpty($$list($$system("/usr/bin/xcrun -find xcrun 2>/dev/null")))`
