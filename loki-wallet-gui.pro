@@ -444,7 +444,7 @@ DISTFILES += \
 
 
 # windows application icon
-RC_FILE = loki-core.rc
+RC_ICONS = images/appicon.ico
 
 # mac Info.plist & application icon
 QMAKE_INFO_PLIST = $$PWD/share/Info.plist
