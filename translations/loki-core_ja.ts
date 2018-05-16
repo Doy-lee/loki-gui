@@ -97,16 +97,16 @@
         <source>Starting local node in %1 seconds</source>
         <translation>%1秒後にローカルノードを開始します</translation>
     </message>
-    <message>
+<message>
         <location filename="../components/DaemonManagerDialog.qml" line="114"/>
         <source>Start Daemon</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>デーモンを起動</translation>
+</message>
+<message>
         <location filename="../components/DaemonManagerDialog.qml" line="127"/>
         <source>Use Custom Settings</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>カスタム設定を使用</translation>
+</message>
     <message>
         <source>Start daemon (%1)</source>
         <translation type="vanished">デーモンを開始 (%1)</translation>
@@ -199,11 +199,11 @@
         <source>Rings:</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+<message>
         <location filename="../components/HistoryTable.qml" line="245"/>
         <source>Address copied to clipboard</source>
-        <translation type="unfinished">アドレスをクリップボードにコピーしました</translation>
-    </message>
+        <translation>アドレスをクリップボードにコピーしました</translation>
+</message>
     <message>
         <location filename="../components/HistoryTable.qml" line="55"/>
         <source>Rings:</source>
@@ -370,11 +370,11 @@
         <source>Seed copied to clipboard</source>
         <translation type="vanished">シードをクリップボードにコピーしました</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Keys.qml" line="116"/>
         <source>Mnemonic Seed</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>ニーモニックシード</translation>
+</message>
     <message>
         <location filename="../pages/Keys.qml" line="143"/>
         <source>Keys</source>
@@ -385,31 +385,31 @@
         <source>Keys copied to clipboard</source>
         <translation>キーをクリップボードにコピーしました</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Keys.qml" line="183"/>
         <source>Export Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>ウォレットをエクスポート</translation>
+</message>
+<message>
         <location filename="../pages/Keys.qml" line="248"/>
         <source>Secret View Key</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>ビューキー (秘密)</translation>
+</message>
+<message>
         <location filename="../pages/Keys.qml" line="249"/>
         <source>Public View Key</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>ビューキー (公開)</translation>
+</message>
+<message>
         <location filename="../pages/Keys.qml" line="250"/>
         <source>Secret Spend Key</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>スペンドキー (秘密)</translation>
+</message>
+<message>
         <location filename="../pages/Keys.qml" line="251"/>
         <source>Public Spend Key</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>スペンドキー (公開)</translation>
+</message>
     <message>
         <source>Export wallet</source>
         <translation type="vanished">ウォレットをエクスポート</translation>
@@ -490,11 +490,11 @@
         <source>Address book</source>
         <translation type="vanished">アドレス帳</translation>
     </message>
-    <message>
+<message>
         <location filename="../LeftPanel.qml" line="339"/>
         <source>Address Book</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>アドレス帳</translation>
+</message>
     <message>
         <location filename="../LeftPanel.qml" line="339"/>
         <source>B</source>
@@ -677,36 +677,36 @@
         <source>Start mining</source>
         <translation type="vanished">マイニングの開始</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Mining.qml" line="62"/>
         <source>Solo Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>ソロマイニング</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="69"/>
         <source>(Only available for local daemons)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>(ローカル上のデーモンでのみ可能)</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="88"/>
         <source>CPU Threads</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>CPUスレッド数</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="108"/>
         <source>Background Mining (Experimental)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>バックグラウンドマイニング (実験的)</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="130"/>
         <source>Manage Miner</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>マイナーの管理</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="140"/>
         <source>Start Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>マイニングの開始</translation>
+</message>
     <message>
         <location filename="../pages/Mining.qml" line="146"/>
         <source>Error starting mining</source>
@@ -722,21 +722,21 @@
         <source>Mining is only available on local daemons. Run a local daemon to be able to mine.&lt;br&gt;</source>
         <translation>マイニングはローカル上のデーモンからのみ行えます。マイニングをするには、ローカル上でデーモンを起動してください。&lt;br&gt;</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Mining.qml" line="161"/>
         <source>Stop Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>マイニングの停止</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="171"/>
         <source>Status: Not Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>状態: マイニングしていません</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="188"/>
         <source>Not Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>マイニングしていません</translation>
+</message>
     <message>
         <source>Stop mining</source>
         <translation type="vanished">マイニングの停止</translation>
@@ -815,11 +815,11 @@
         <source>Invalid connection status</source>
         <translation>不正な接続状態</translation>
     </message>
-    <message>
+<message>
         <location filename="../components/NetworkStatusItem.qml" line="103"/>
         <source>Network Status</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>ネットワークの状態</translation>
+</message>
 </context>
 <context>
     <name>NewPasswordDialog</name>
@@ -925,11 +925,11 @@
         <source>WARNING: no connection to daemon</source>
         <translation type="vanished">警告: デーモンに接続していません</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Receive.qml" line="81"/>
         <source>WARNING: No connection to daemon</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>警告: デーモンに接続していません</translation>
+</message>
     <message>
         <location filename="../pages/Receive.qml" line="124"/>
         <source>No transaction found yet...</source>
@@ -1182,31 +1182,31 @@
         <source>Bootstrap Node</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Settings.qml" line="351"/>
         <source>Show Status</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>状態を表示</translation>
+</message>
+<message>
         <location filename="../pages/Settings.qml" line="368"/>
         <source>Blockchain Location</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>ブロックチェーンの場所</translation>
+</message>
     <message>
         <location filename="../pages/Settings.qml" line="392"/>
         <source>Change Location</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Settings.qml" line="407"/>
         <source>Show Advanced</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>高度な設定の表示</translation>
+</message>
+<message>
         <location filename="../pages/Settings.qml" line="419"/>
         <source>Local Daemon Startup Flags</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>ローカルデーモンの起動フラグ</translation>
+</message>
     <message>
         <location filename="../pages/Settings.qml" line="423"/>
         <source>Change location</source>
@@ -1639,7 +1639,7 @@ The old wallet cache file will be renamed and can be restored later.
         <source>Verify file</source>
         <translation>ファイルを検証</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Sign.qml" line="289"/>
         <source>Address</source>
         <translation>アドレス</translation>
@@ -2171,11 +2171,11 @@ Spend Proofの場合、宛先アドレスを指定する必要はありません
         <source>Signature</source>
         <translation>署名</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/TxKey.qml" line="199"/>
         <source>Paste TX proof</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>取引の証明を貼り付けてください</translation>
+</message>
     <message>
         <source>Paste tx proof</source>
         <translation type="vanished">取引の証明を貼り付けてください</translation>
@@ -2258,11 +2258,11 @@ Spend Proofの場合、宛先アドレスを指定する必要はありません
         <source>Create a new wallet</source>
         <translation type="vanished">新しいウォレットの作成</translation>
     </message>
-    <message>
+<message>
         <location filename="../wizard/WizardCreateWallet.qml" line="98"/>
         <source>Create A New Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>新しいウォレットの作成</translation>
+</message>
 </context>
 <context>
     <name>WizardDaemonSettings</name>
@@ -2385,11 +2385,11 @@ Spend Proofの場合、宛先アドレスを指定する必要はありません
         <source>Daemon address</source>
         <translation>デーモンのアドレス</translation>
     </message>
-    <message>
+<message>
         <location filename="../wizard/WizardFinish.qml" line="138"/>
         <source>You’re All Set Up!</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>準備ができました!</translation>
+</message>
     <message>
         <location filename="../wizard/WizardFinish.qml" line="57"/>
         <source>Testnet</source>
@@ -2482,12 +2482,12 @@ Spend Proofの場合、宛先アドレスを指定する必要はありません
         <source>Restore from keys</source>
         <translation type="vanished">キーから復元</translation>
     </message>
-    <message>
+<message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="162"/>
         <source>Wallet Name</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>ウォレット名</translation>
+</message>
+<message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="181"/>
         <source>Restore From Seed</source>
         <translation type="unfinished"></translation>
@@ -2572,11 +2572,11 @@ Spend Proofの場合、宛先アドレスを指定する必要はありません
         <source>Welcome To Loki!</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+<message>
         <location filename="../wizard/WizardOptions.qml" line="139"/>
         <source>Create A New Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>新しくウォレットを作る</translation>
+</message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="183"/>
         <source>Restore wallet from keys or mnemonic seed</source>
@@ -2615,11 +2615,11 @@ Spend Proofの場合、宛先アドレスを指定する必要はありません
         <translation type="obsolete"> &lt;br&gt;備考: このパスワードは復元できません。パスワードを忘れてしまった場合、ウォレットは25単語のニーモニックシードから復元する必要があります。&lt;br/&gt;&lt;br/&gt;
                         &lt;b&gt;強力なパスワードを入力してください。&lt;/b&gt; (文字、数字、記号が使えます):</translation>
     </message>
-    <message>
+<message>
         <location filename="../wizard/WizardPassword.qml" line="56"/>
         <source>Give Your Wallet A Password</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>ウォレットのパスワードを設定してください</translation>
+</message>
     <message>
         <location filename="../wizard/WizardPassword.qml" line="119"/>
         <source> &lt;br&gt;Note: this password cannot be recovered. If you forget it then the wallet will have to be restored from its 25 word mnemonic seed.&lt;br/&gt;&lt;br/&gt;
@@ -2646,11 +2646,11 @@ Spend Proofの場合、宛先アドレスを指定する必要はありません
         <source>Restore wallet</source>
         <translation type="vanished">ウォレットの復元</translation>
     </message>
-    <message>
+<message>
         <location filename="../wizard/WizardRecoveryWallet.qml" line="119"/>
         <source>Restore Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>ウォレットの復元</translation>
+</message>
 </context>
 <context>
     <name>WizardWelcome</name>

@@ -692,11 +692,11 @@
         <source>Invalid connection status</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+<message>
         <location filename="../components/NetworkStatusItem.qml" line="103"/>
         <source>Network Status</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>नेटवर्क स्थिति</translation>
+</message>
 </context>
 <context>
     <name>NewPasswordDialog</name>
@@ -908,8 +908,8 @@
     <message>
         <location filename="../pages/Receive.qml" line="455"/>
         <source>Amount</source>
-        <translation type="unfinished">राशि</translation>
-    </message>
+        <translation>राशि</translation>
+</message>
     <message>
         <location filename="../pages/Receive.qml" line="456"/>
         <source>Amount to receive</source>
@@ -1629,11 +1629,11 @@ The old wallet cache file will be renamed and can be restored later.
 </context>
 <context>
     <name>TableHeader</name>
-    <message>
+<message>
         <location filename="../components/TableHeader.qml" line="79"/>
         <source>Payment ID</source>
-        <translation type="unfinished">भुगतान आईडी</translation>
-    </message>
+        <translation>भुगतान आईडी</translation>
+</message>
     <message>
         <location filename="../components/TableHeader.qml" line="80"/>
         <source>Date</source>
@@ -1977,11 +1977,11 @@ For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that pr
         <source>Optional message against which the signature is signed</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/TxKey.qml" line="122"/>
         <source>Generate</source>
-        <translation type="unfinished">उत्पन्न करें</translation>
-    </message>
+        <translation>उत्पन्न करें</translation>
+</message>
     <message>
         <location filename="../pages/TxKey.qml" line="142"/>
         <source>Check Transaction</source>

@@ -100,7 +100,7 @@
     <message>
         <location filename="../components/DaemonManagerDialog.qml" line="127"/>
         <source>Use Custom Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Utilitzar opcions personalitzades</translation>
     </message>
     <message>
         <source>Start daemon (%1)</source>
@@ -678,32 +678,32 @@
     <message>
         <location filename="../pages/Mining.qml" line="62"/>
         <source>Solo Mining</source>
-        <translation type="unfinished"></translation>
+        <translation>Minat individual</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="69"/>
         <source>(Only available for local daemons)</source>
-        <translation type="unfinished"></translation>
+        <translation>(només disponible per a daemons locals)</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="88"/>
         <source>CPU Threads</source>
-        <translation type="unfinished"></translation>
+        <translation>Fils de CPU</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="108"/>
         <source>Background Mining (Experimental)</source>
-        <translation type="unfinished"></translation>
+        <translation>Minat en segon pla (experimental)</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="130"/>
         <source>Manage Miner</source>
-        <translation type="unfinished"></translation>
+        <translation>Administrar miner</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="140"/>
         <source>Start Mining</source>
-        <translation type="unfinished"></translation>
+        <translation>Començar minat</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="146"/>
@@ -723,17 +723,17 @@
     <message>
         <location filename="../pages/Mining.qml" line="161"/>
         <source>Stop Mining</source>
-        <translation type="unfinished"></translation>
+        <translation>Parar minat</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="171"/>
         <source>Status: Not Mining</source>
-        <translation type="unfinished"></translation>
+        <translation>Estat: no està minant</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="188"/>
         <source>Not Mining</source>
-        <translation type="unfinished"></translation>
+        <translation>No està minant</translation>
     </message>
     <message>
         <source>Stop mining</source>
@@ -801,7 +801,7 @@
     <message>
         <location filename="../components/NetworkStatusItem.qml" line="103"/>
         <source>Network Status</source>
-        <translation type="unfinished"></translation>
+        <translation>Estat de la xarxa</translation>
     </message>
     <message>
         <source>Network status</source>
@@ -915,7 +915,7 @@
     <message>
         <location filename="../pages/Receive.qml" line="81"/>
         <source>WARNING: No connection to daemon</source>
-        <translation type="unfinished"></translation>
+        <translation>ADVERTENCIA: Sense connexió al daemon</translation>
     </message>
     <message>
         <location filename="../pages/Receive.qml" line="124"/>
@@ -1071,7 +1071,7 @@
     <message>
         <location filename="../pages/Receive.qml" line="455"/>
         <source>Amount</source>
-        <translation type="unfinished">Quantitat</translation>
+        <translation>Quantitat</translation>
     </message>
 </context>
 <context>
@@ -1692,7 +1692,7 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../components/StandardDropdown.qml" line="172"/>
         <source>Default (x1 fee)</source>
-        <translation type="unfinished">Per defecte (comissió x4) {1 ?}</translation>
+        <translation>Per defecte (comissió x4) {1 ?}</translation>
     </message>
     <message>
         <location filename="../components/StandardDropdown.qml" line="173"/>
@@ -2225,7 +2225,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardCreateWallet.qml" line="98"/>
         <source>Create A New Wallet</source>
-        <translation type="unfinished"></translation>
+        <translation>Crear un nou moneder</translation>
     </message>
 </context>
 <context>
@@ -2356,7 +2356,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardFinish.qml" line="138"/>
         <source>You’re All Set Up!</source>
-        <translation type="unfinished"></translation>
+        <translation>Ja està llest!</translation>
     </message>
     <message>
         <location filename="../wizard/WizardFinish.qml" line="57"/>
@@ -2454,17 +2454,17 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="162"/>
         <source>Wallet Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Nom del moneder</translation>
     </message>
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="181"/>
         <source>Restore From Seed</source>
-        <translation type="unfinished"></translation>
+        <translation>Restaurar des de llavor</translation>
     </message>
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="190"/>
         <source>Restore From Keys</source>
-        <translation type="unfinished"></translation>
+        <translation>Restaurar des de clau</translation>
     </message>
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="204"/>
@@ -2549,7 +2549,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardOptions.qml" line="139"/>
         <source>Create A New Wallet</source>
-        <translation type="unfinished"></translation>
+        <translation>Crear un nou moneder</translation>
     </message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="183"/>
@@ -2592,7 +2592,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardPassword.qml" line="56"/>
         <source>Give Your Wallet A Password</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingressi una contrasenya per al moneder</translation>
     </message>
     <message>
         <location filename="../wizard/WizardPassword.qml" line="119"/>
@@ -2623,7 +2623,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../wizard/WizardRecoveryWallet.qml" line="119"/>
         <source>Restore Wallet</source>
-        <translation type="unfinished"></translation>
+        <translation>Restaurar moneder</translation>
     </message>
 </context>
 <context>

@@ -97,11 +97,11 @@
         <source>Start Daemon</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+<message>
         <location filename="../components/DaemonManagerDialog.qml" line="127"/>
         <source>Use Custom Settings</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Použiť vlastné nastavenia</translation>
+</message>
     <message>
         <source>Start daemon (%1)</source>
         <translation type="vanished">Spustenie démona (%1)</translation>
@@ -658,36 +658,36 @@
         <source>Start mining</source>
         <translation type="vanished">Spustiť ťažbu</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Mining.qml" line="62"/>
         <source>Solo Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Sólo ťažba</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="69"/>
         <source>(Only available for local daemons)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>(k dispozícii iba pre lokálnych démonov)</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="88"/>
         <source>CPU Threads</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Vlákna procesora</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="108"/>
         <source>Background Mining (Experimental)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Ťažba na pozadí (experimentálna)</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="130"/>
         <source>Manage Miner</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Spravovať ťažbu</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="140"/>
         <source>Start Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Spustiť ťažbu</translation>
+</message>
     <message>
         <location filename="../pages/Mining.qml" line="146"/>
         <source>Error starting mining</source>
@@ -703,21 +703,21 @@
         <source>Mining is only available on local daemons. Run a local daemon to be able to mine.&lt;br&gt;</source>
         <translation>Ťažba k dispozícii iba pre lokálnych démonov. Spustite lokálneho démona, aby ste mohli ťažiť.&lt;br&gt;</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Mining.qml" line="161"/>
         <source>Stop Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Zastaviť ťažbu</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="171"/>
         <source>Status: Not Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Stav: neťaží sa</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="188"/>
         <source>Not Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Neťaží sa</translation>
+</message>
     <message>
         <source>Stop mining</source>
         <translation type="vanished">Zastaviť ťažbu</translation>
@@ -781,11 +781,11 @@
         <source>Invalid connection status</source>
         <translation>Neplatný stav pripojenia</translation>
     </message>
-    <message>
+<message>
         <location filename="../components/NetworkStatusItem.qml" line="103"/>
         <source>Network Status</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Stav siete</translation>
+</message>
     <message>
         <source>Network status</source>
         <translation type="vanished">Stav siete</translation>
@@ -895,11 +895,11 @@
         <source>WARNING: no connection to daemon</source>
         <translation type="vanished">VAROVANIE: žiadne pripojenie k démonovi</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Receive.qml" line="81"/>
         <source>WARNING: No connection to daemon</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>VAROVANIE: žiadne pripojenie k démonovi</translation>
+</message>
     <message>
         <location filename="../pages/Receive.qml" line="124"/>
         <source>No transaction found yet...</source>
@@ -2117,7 +2117,7 @@ V prípade odchádzajúcich platieb môžete získať  &apos;Dôkaz Vynaloženia
         <source>Optional message against which the signature is signed</source>
         <translation>Voliteľná správa, proti ktorej je podpis podpísaný</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/TxKey.qml" line="122"/>
         <source>Generate</source>
         <translation>Generovať</translation>
@@ -2232,11 +2232,11 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <source>Create a new wallet</source>
         <translation type="vanished">Vytvoriť novú peňaženku</translation>
     </message>
-    <message>
+<message>
         <location filename="../wizard/WizardCreateWallet.qml" line="98"/>
         <source>Create A New Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Vytvoriť novú peňaženku</translation>
+</message>
 </context>
 <context>
     <name>WizardDaemonSettings</name>
@@ -2353,11 +2353,11 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <source>Daemon address</source>
         <translation>Adresa démona</translation>
     </message>
-    <message>
+<message>
         <location filename="../wizard/WizardFinish.qml" line="138"/>
         <source>You’re All Set Up!</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Všetko je nastavené!</translation>
+</message>
     <message>
         <location filename="../wizard/WizardFinish.qml" line="57"/>
         <source>Testnet</source>
@@ -2564,11 +2564,11 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="obsolete"> &lt;br&gt;Poznámka: toto heslo nie je možné obnoviť. Ak ho zabudnete, bude potrebné obnoviť peňaženku z jej 25 slovného mnemotechnického seed-u.&lt;br/&gt;&lt;br/&gt;
                         &lt;b&gt;Zadajte silné heslo&lt;/b&gt; (použite písmená, čísla, a/alebo symboly):</translation>
     </message>
-    <message>
+<message>
         <location filename="../wizard/WizardPassword.qml" line="56"/>
         <source>Give Your Wallet A Password</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Dajte Vašej peňaženke heslo</translation>
+</message>
     <message>
         <location filename="../wizard/WizardPassword.qml" line="119"/>
         <source> &lt;br&gt;Note: this password cannot be recovered. If you forget it then the wallet will have to be restored from its 25 word mnemonic seed.&lt;br/&gt;&lt;br/&gt;
@@ -2595,11 +2595,11 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <source>Restore wallet</source>
         <translation type="vanished">Obnoviť peňaženku</translation>
     </message>
-    <message>
+<message>
         <location filename="../wizard/WizardRecoveryWallet.qml" line="119"/>
         <source>Restore Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Obnoviť peňaženku</translation>
+</message>
 </context>
 <context>
     <name>WizardWelcome</name>

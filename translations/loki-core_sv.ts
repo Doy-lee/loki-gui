@@ -97,16 +97,16 @@
         <source>Starting local node in %1 seconds</source>
         <translation>Startar lokal nod om %1 sekunder</translation>
     </message>
-    <message>
+<message>
         <location filename="../components/DaemonManagerDialog.qml" line="114"/>
         <source>Start Daemon</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Starta nod</translation>
+</message>
+<message>
         <location filename="../components/DaemonManagerDialog.qml" line="127"/>
         <source>Use Custom Settings</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Använd anpassade inställningar</translation>
+</message>
     <message>
         <source>Start daemon (%1)</source>
         <translation>Starta daemon (%1)</translation>
@@ -194,11 +194,11 @@
         <source>No more results</source>
         <translation>Inga fler resultat</translation>
     </message>
-    <message>
+<message>
         <location filename="../components/HistoryTable.qml" line="245"/>
         <source>Address copied to clipboard</source>
-        <translation type="unfinished">Adressen kopierades till Urklipp</translation>
-    </message>
+        <translation>Adressen kopierades till Urklipp</translation>
+</message>
     <message>
         <location filename="../components/HistoryTable.qml" line="244"/>
         <source>Address copied to clipboard</source>
@@ -360,11 +360,11 @@
         <source>Seed copied to clipboard</source>
         <translation type="vanished">Frö kopierat till Urklipp</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Keys.qml" line="116"/>
         <source>Mnemonic Seed</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Minnesfrö</translation>
+</message>
     <message>
         <location filename="../pages/Keys.qml" line="143"/>
         <source>Keys</source>
@@ -375,31 +375,31 @@
         <source>Keys copied to clipboard</source>
         <translation>Nycklarna kopierades till Urklipp</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Keys.qml" line="183"/>
         <source>Export Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Exportera plånbok</translation>
+</message>
+<message>
         <location filename="../pages/Keys.qml" line="248"/>
         <source>Secret View Key</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Hemlig granskningsnyckel</translation>
+</message>
+<message>
         <location filename="../pages/Keys.qml" line="249"/>
         <source>Public View Key</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Publik granskningsnyckel</translation>
+</message>
+<message>
         <location filename="../pages/Keys.qml" line="250"/>
         <source>Secret Spend Key</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Hemlig spendernyckel</translation>
+</message>
+<message>
         <location filename="../pages/Keys.qml" line="251"/>
         <source>Public Spend Key</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Publik spendernyckel</translation>
+</message>
     <message>
         <source>Export wallet</source>
         <translation type="vanished">Exportera plånbok</translation>
@@ -699,36 +699,36 @@
         <source>Start mining</source>
         <translation type="vanished">Starta brytning</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Mining.qml" line="62"/>
         <source>Solo Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Solo-brytning</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="69"/>
         <source>(Only available for local daemons)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>(endast tillgängligt för lokala noder)</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="88"/>
         <source>CPU Threads</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>CPU-trådar</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="108"/>
         <source>Background Mining (Experimental)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Bakgrundsbrytning (experimentell)</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="130"/>
         <source>Manage Miner</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Hantera brytare</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="140"/>
         <source>Start Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Starta brytning</translation>
+</message>
     <message>
         <location filename="../pages/Mining.qml" line="146"/>
         <source>Error starting mining</source>
@@ -744,21 +744,21 @@
         <source>Mining is only available on local daemons. Run a local daemon to be able to mine.&lt;br&gt;</source>
         <translation>Brytning är endast tillgänglig för lokala daemoner. Kör en lokal daemon för att kunna bryta.&lt;br&gt;</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Mining.qml" line="161"/>
         <source>Stop Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Stoppa brytning</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="171"/>
         <source>Status: Not Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Status: ingen brytning</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="188"/>
         <source>Not Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Ingen brytning</translation>
+</message>
     <message>
         <source>Stop mining</source>
         <translation type="vanished">Stoppa brytning</translation>
@@ -822,11 +822,11 @@
         <source>Invalid connection status</source>
         <translation>Ogiltig anslutningsstatus</translation>
     </message>
-    <message>
+<message>
         <location filename="../components/NetworkStatusItem.qml" line="103"/>
         <source>Network Status</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Nätverksstatus</translation>
+</message>
     <message>
         <source>Network status</source>
         <translation type="vanished">Nätverksstatus</translation>
@@ -1403,26 +1403,26 @@ Den gamla plånbokens cachefil döps om och kan återställas senare.
         <source>Cancel</source>
         <translation>Avbryt</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Settings.qml" line="72"/>
         <source>Manage Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Hantera plånbok</translation>
+</message>
+<message>
         <location filename="../pages/Settings.qml" line="81"/>
         <source>Close Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Stäng plånbok</translation>
+</message>
+<message>
         <location filename="../pages/Settings.qml" line="93"/>
         <source>Create View Only Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Skapa granskningsplånbok</translation>
+</message>
+<message>
         <location filename="../pages/Settings.qml" line="139"/>
         <source>Rescan Wallet Balance</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Skanna om plånbokens saldo</translation>
+</message>
     <message>
         <location filename="../pages/Settings.qml" line="143"/>
         <location filename="../pages/Settings.qml" line="171"/>
@@ -2320,11 +2320,11 @@ I fallet med spenderbevis behöver du inte ange mottagaradressen.</translation>
         <source>Create a new wallet</source>
         <translation type="vanished">Skapa en ny plånbok</translation>
     </message>
-    <message>
+<message>
         <location filename="../wizard/WizardCreateWallet.qml" line="98"/>
         <source>Create A New Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Skapa en ny plånbok</translation>
+</message>
 </context>
 <context>
     <name>WizardDaemonSettings</name>

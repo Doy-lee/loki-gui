@@ -189,7 +189,7 @@
         <source>No more results</source>
         <translation>Pas d'autre résultat</translation>
     </message>
-    <message>
+<message>
         <location filename="../components/HistoryTable.qml" line="245"/>
         <source>Address copied to clipboard</source>
         <translation>Adresse copiée dans le presse-papier</translation>
@@ -350,11 +350,11 @@
         <source>Seed copied to clipboard</source>
         <translation type="vanished">Votre phrase mnémonique a été copié</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Keys.qml" line="116"/>
         <source>Mnemonic Seed</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Phrase mnémonique</translation>
+</message>
     <message>
         <location filename="../pages/Keys.qml" line="143"/>
         <source>Keys</source>
@@ -365,31 +365,31 @@
         <source>Keys copied to clipboard</source>
         <translation>Vos clés ont été copiées</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Keys.qml" line="183"/>
         <source>Export Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Exporter portefeuille</translation>
+</message>
+<message>
         <location filename="../pages/Keys.qml" line="248"/>
         <source>Secret View Key</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Clé secrète d&apos;audit</translation>
+</message>
+<message>
         <location filename="../pages/Keys.qml" line="249"/>
         <source>Public View Key</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Clé publique d&apos;audit</translation>
+</message>
+<message>
         <location filename="../pages/Keys.qml" line="250"/>
         <source>Secret Spend Key</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Clé secrète de dépense</translation>
+</message>
+<message>
         <location filename="../pages/Keys.qml" line="251"/>
         <source>Public Spend Key</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Clé publique de dépense</translation>
+</message>
     <message>
         <source>Export wallet</source>
         <translation type="vanished">Exporter portefeuille</translation>
@@ -693,36 +693,36 @@
         <source>Start mining</source>
         <translation type="vanished">Démarrer</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Mining.qml" line="62"/>
         <source>Solo Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Extraction minière en solo</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="69"/>
         <source>(Only available for local daemons)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>(disponible uniquement pour les démons locaux)</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="88"/>
         <source>CPU Threads</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Threads CPU</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="108"/>
         <source>Background Mining (Experimental)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Mine en arrière plan (expérimental)</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="130"/>
         <source>Manage Miner</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Gérer le mineur</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="140"/>
         <source>Start Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Démarrer</translation>
+</message>
     <message>
         <location filename="../pages/Mining.qml" line="146"/>
         <source>Error starting mining</source>
@@ -738,21 +738,21 @@
         <source>Mining is only available on local daemons. Run a local daemon to be able to mine.&lt;br&gt;</source>
         <translation>L'extraction minière n'est disponible que pour les démons locaux. Démarrez un démon local pour pouvoir l'utiliser.&lt;br&gt;</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Mining.qml" line="161"/>
         <source>Stop Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Arrêter</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="171"/>
         <source>Status: Not Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Statut : pas d&apos;extraction minière</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="188"/>
         <source>Not Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Pas d&apos;extraction minière</translation>
+</message>
     <message>
         <source>Stop mining</source>
         <translation type="vanished">Arrêter</translation>
@@ -816,11 +816,11 @@
         <source>Invalid connection status</source>
         <translation>État de connexion invalide</translation>
     </message>
-    <message>
+<message>
         <location filename="../components/NetworkStatusItem.qml" line="103"/>
         <source>Network Status</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>État du réseau</translation>
+</message>
     <message>
         <source>Network status</source>
         <translation type="vanished">État du réseau</translation>
@@ -930,11 +930,11 @@
         <source>WARNING: no connection to daemon</source>
         <translation type="vanished">ATTENTION : non connecté au démon</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Receive.qml" line="81"/>
         <source>WARNING: No connection to daemon</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>ATTENTION : non connecté au démon</translation>
+</message>
     <message>
         <location filename="../pages/Receive.qml" line="124"/>
         <source>No transaction found yet...</source>
@@ -2190,11 +2190,11 @@ Pour le cas d'une preuve de dépense, il n'est pas nécessaire de spécifier l'a
         <source>Signature</source>
         <translation>Signature</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/TxKey.qml" line="199"/>
         <source>Paste TX proof</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Coller preuve de transaction</translation>
+</message>
     <message>
         <source>Paste tx proof</source>
         <translation type="vanished">Coller preuve de transaction</translation>
@@ -2277,11 +2277,11 @@ Pour le cas d'une preuve de dépense, il n'est pas nécessaire de spécifier l'a
         <source>Create a new wallet</source>
         <translation type="vanished">Créer un nouveau portefeuille</translation>
     </message>
-    <message>
+<message>
         <location filename="../wizard/WizardCreateWallet.qml" line="98"/>
         <source>Create A New Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Créer un nouveau portefeuille</translation>
+</message>
 </context>
 <context>
     <name>WizardDaemonSettings</name>
@@ -2408,11 +2408,11 @@ Pour le cas d'une preuve de dépense, il n'est pas nécessaire de spécifier l'a
         <source>Daemon address</source>
         <translation>Adresse du démon</translation>
     </message>
-    <message>
+<message>
         <location filename="../wizard/WizardFinish.qml" line="138"/>
         <source>You’re All Set Up!</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Vous êtes paré !</translation>
+</message>
     <message>
         <location filename="../wizard/WizardFinish.qml" line="57"/>
         <source>Testnet</source>
@@ -2586,11 +2586,11 @@ Pour le cas d'une preuve de dépense, il n'est pas nécessaire de spécifier l'a
         <source>Welcome To Loki!</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+<message>
         <location filename="../wizard/WizardOptions.qml" line="139"/>
         <source>Create A New Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Créer un nouveau portefeuille</translation>
+</message>
     <message>
         <location filename="../wizard/WizardOptions.qml" line="183"/>
         <source>Restore wallet from keys or mnemonic seed</source>
@@ -2655,11 +2655,11 @@ Pour le cas d'une preuve de dépense, il n'est pas nécessaire de spécifier l'a
         <source>Restore wallet</source>
         <translation type="vanished">Restaurer un portefeuille</translation>
     </message>
-    <message>
+<message>
         <location filename="../wizard/WizardRecoveryWallet.qml" line="119"/>
         <source>Restore Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Restaurer un portefeuille</translation>
+</message>
 </context>
 <context>
     <name>WizardWelcome</name>

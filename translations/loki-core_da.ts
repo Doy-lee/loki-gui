@@ -97,11 +97,11 @@
         <source>Start Daemon</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+<message>
         <location filename="../components/DaemonManagerDialog.qml" line="127"/>
         <source>Use Custom Settings</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Brug brugerdefinerede indstillinger</translation>
+</message>
     <message>
         <source>Start daemon (%1)</source>
         <translation type="vanished">Start daemon (%1)</translation>
@@ -658,36 +658,36 @@
         <source>Start mining</source>
         <translation type="vanished">Start miner</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Mining.qml" line="62"/>
         <source>Solo Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Solo mining</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="69"/>
         <source>(Only available for local daemons)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>(kun tilgængelig for lokale daemons)</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="88"/>
         <source>CPU Threads</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>CPU tråde</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="108"/>
         <source>Background Mining (Experimental)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Baggrunds miner (eksperimentiel)</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="130"/>
         <source>Manage Miner</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Administrer miner</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="140"/>
         <source>Start Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Start miner</translation>
+</message>
     <message>
         <location filename="../pages/Mining.qml" line="146"/>
         <source>Error starting mining</source>
@@ -703,21 +703,21 @@
         <source>Mining is only available on local daemons. Run a local daemon to be able to mine.&lt;br&gt;</source>
         <translation>Det kun muligt at mine på lokale daemons. Kør en lokal daemon for at mine</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Mining.qml" line="161"/>
         <source>Stop Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Stop mineren</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="171"/>
         <source>Status: Not Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Status: Miner ikke</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="188"/>
         <source>Not Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Miner ikke</translation>
+</message>
     <message>
         <source>Stop mining</source>
         <translation type="vanished">Stop mineren</translation>
@@ -781,11 +781,11 @@
         <source>Invalid connection status</source>
         <translation>Ugyldig forbindelses status</translation>
     </message>
-    <message>
+<message>
         <location filename="../components/NetworkStatusItem.qml" line="103"/>
         <source>Network Status</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Netværk status</translation>
+</message>
     <message>
         <source>Network status</source>
         <translation type="vanished">Netværk status</translation>
@@ -895,11 +895,11 @@
         <source>WARNING: no connection to daemon</source>
         <translation type="vanished">ADVARSEL: ingen forbindelse til daemon</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Receive.qml" line="81"/>
         <source>WARNING: No connection to daemon</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>ADVARSEL: ingen forbindelse til daemon</translation>
+</message>
     <message>
         <location filename="../pages/Receive.qml" line="124"/>
         <source>No transaction found yet...</source>
@@ -1324,26 +1324,26 @@ The old wallet cache file will be renamed and can be restored later.
         <source>Cancel</source>
         <translation>Afbryd</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Settings.qml" line="72"/>
         <source>Manage Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Administrer tegnebog</translation>
+</message>
+<message>
         <location filename="../pages/Settings.qml" line="81"/>
         <source>Close Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Luk tegnebog</translation>
+</message>
+<message>
         <location filename="../pages/Settings.qml" line="93"/>
         <source>Create View Only Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Opret se-kun tegnebog</translation>
+</message>
+<message>
         <location filename="../pages/Settings.qml" line="139"/>
         <source>Rescan Wallet Balance</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Skan tegnebogs saldo igen</translation>
+</message>
     <message>
         <location filename="../pages/Settings.qml" line="143"/>
         <location filename="../pages/Settings.qml" line="171"/>
@@ -1365,7 +1365,7 @@ The old wallet cache file will be renamed and can be restored later.
         <source>Daemon Mode</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Settings.qml" line="351"/>
         <source>Show Status</source>
         <translation type="unfinished"></translation>
@@ -2132,7 +2132,7 @@ Please upgrade or connect to another daemon</source>
         <source>Optional message against which the signature is signed</source>
         <translation>Valgfri besked mod signaturen der er signeret</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/TxKey.qml" line="122"/>
         <source>Generate</source>
         <translation>Generer</translation>
@@ -2249,11 +2249,11 @@ For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that pr
         <source>Create a new wallet</source>
         <translation type="vanished">Opret ny tegnebog</translation>
     </message>
-    <message>
+<message>
         <location filename="../wizard/WizardCreateWallet.qml" line="98"/>
         <source>Create A New Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Opret ny tegnebog</translation>
+</message>
 </context>
 <context>
     <name>WizardDaemonSettings</name>
@@ -2380,11 +2380,11 @@ For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that pr
         <source>Daemon address</source>
         <translation>Daemon adresse</translation>
     </message>
-    <message>
+<message>
         <location filename="../wizard/WizardFinish.qml" line="138"/>
         <source>You’re All Set Up!</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Du er nu klar!</translation>
+</message>
     <message>
         <location filename="../wizard/WizardFinish.qml" line="57"/>
         <source>Testnet</source>
@@ -2596,11 +2596,11 @@ For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that pr
         <translation type="obsolete"> &lt;br&gt;Note: dette kodeord kan ikke blive genoprettet. Hvis du glemmer det, så ville din tegnebog være nødt til at blive genoprettet via dit 25 ords mnemonic seed.&lt;br/&gt;&lt;br/&gt;
                         &lt;b&gt;Indtast et stærkt kodeord&lt;/b&gt; (ved brug af bogstaver, numre og/eller symboler):</translation>
     </message>
-    <message>
+<message>
         <location filename="../wizard/WizardPassword.qml" line="56"/>
         <source>Give Your Wallet A Password</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Giv din tegnebog et kodeord</translation>
+</message>
     <message>
         <location filename="../wizard/WizardPassword.qml" line="119"/>
         <source> &lt;br&gt;Note: this password cannot be recovered. If you forget it then the wallet will have to be restored from its 25 word mnemonic seed.&lt;br/&gt;&lt;br/&gt;
@@ -2627,11 +2627,11 @@ For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that pr
         <source>Restore wallet</source>
         <translation type="vanished">Genopret tegnebog</translation>
     </message>
-    <message>
+<message>
         <location filename="../wizard/WizardRecoveryWallet.qml" line="119"/>
         <source>Restore Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Genopret tegnebog</translation>
+</message>
 </context>
 <context>
     <name>WizardWelcome</name>

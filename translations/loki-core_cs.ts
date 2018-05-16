@@ -97,11 +97,11 @@
         <source>Start Daemon</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+<message>
         <location filename="../components/DaemonManagerDialog.qml" line="127"/>
         <source>Use Custom Settings</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Použít vlastní nastavení</translation>
+</message>
     <message>
         <source>Start daemon (%1)</source>
         <translation type="vanished">Start démona (%1)</translation>
@@ -194,11 +194,11 @@
         <source>No more results</source>
         <translation>Žádné další výsledky</translation>
     </message>
-    <message>
+<message>
         <location filename="../components/HistoryTable.qml" line="245"/>
         <source>Address copied to clipboard</source>
-        <translation type="unfinished">Adresa zkopírována do schránky</translation>
-    </message>
+        <translation>Adresa zkopírována do schránky</translation>
+</message>
     <message>
         <location filename="../components/HistoryTable.qml" line="244"/>
         <source>Address copied to clipboard</source>
@@ -360,11 +360,11 @@
         <source>Seed copied to clipboard</source>
         <translation type="vanished">Seed zkopírovaný do schránky</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Keys.qml" line="116"/>
         <source>Mnemonic Seed</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Mnemonický seed</translation>
+</message>
     <message>
         <location filename="../pages/Keys.qml" line="143"/>
         <source>Keys</source>
@@ -375,31 +375,31 @@
         <source>Keys copied to clipboard</source>
         <translation>Klíče zkopírované do schránky</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Keys.qml" line="183"/>
         <source>Export Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Exportovat peněženku</translation>
+</message>
+<message>
         <location filename="../pages/Keys.qml" line="248"/>
         <source>Secret View Key</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Zobrazení tajného klíče</translation>
+</message>
+<message>
         <location filename="../pages/Keys.qml" line="249"/>
         <source>Public View Key</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Zobrazení veřejného klíče</translation>
+</message>
+<message>
         <location filename="../pages/Keys.qml" line="250"/>
         <source>Secret Spend Key</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Tajný klíč pro výdaj</translation>
+</message>
+<message>
         <location filename="../pages/Keys.qml" line="251"/>
         <source>Public Spend Key</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Veřejný klíč pro výdaj</translation>
+</message>
     <message>
         <source>Export wallet</source>
         <translation type="vanished">Exportovat peněženku</translation>
@@ -712,36 +712,36 @@
         <source>Start mining</source>
         <translation type="vanished">Spustit těžení</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Mining.qml" line="62"/>
         <source>Solo Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Samostatné těžení</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="69"/>
         <source>(Only available for local daemons)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>(dostupné pouze pro lokálního démona)</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="88"/>
         <source>CPU Threads</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>CPU vlákna</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="108"/>
         <source>Background Mining (Experimental)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Těžba na pozadí (experimentální)</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="130"/>
         <source>Manage Miner</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Nastavení těžby</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="140"/>
         <source>Start Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Spustit těžení</translation>
+</message>
     <message>
         <location filename="../pages/Mining.qml" line="153"/>
         <source>Error starting mining</source>
@@ -823,11 +823,11 @@
         <source>Invalid connection status</source>
         <translation>Nevalídní stav připojení</translation>
     </message>
-    <message>
+<message>
         <location filename="../components/NetworkStatusItem.qml" line="103"/>
         <source>Network Status</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Stav síťového připojení</translation>
+</message>
     <message>
         <source>Network status</source>
         <translation type="vanished">Stav síťového připojení</translation>
@@ -937,11 +937,11 @@
         <source>WARNING: no connection to daemon</source>
         <translation type="vanished">VAROVÁNÍ: žádné spojení s démonem</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Receive.qml" line="81"/>
         <source>WARNING: No connection to daemon</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>VAROVÁNÍ: žádné spojení s démonem</translation>
+</message>
     <message>
         <location filename="../pages/Receive.qml" line="124"/>
         <source>No transaction found yet...</source>
@@ -1368,26 +1368,26 @@ Starší soubor mezipaměti peněženky bude přejmenován a později jej lze ob
         <source>Cancel</source>
         <translation>Zrušit</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Settings.qml" line="72"/>
         <source>Manage Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Spravovat peněženku</translation>
+</message>
+<message>
         <location filename="../pages/Settings.qml" line="81"/>
         <source>Close Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Zavřít peněženku</translation>
+</message>
+<message>
         <location filename="../pages/Settings.qml" line="93"/>
         <source>Create View Only Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Vytvořit peněženku pouze pro čtení</translation>
+</message>
+<message>
         <location filename="../pages/Settings.qml" line="139"/>
         <source>Rescan Wallet Balance</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Přeskenovat zůstatek peněženky</translation>
+</message>
     <message>
         <location filename="../pages/Settings.qml" line="143"/>
         <location filename="../pages/Settings.qml" line="171"/>
@@ -1409,7 +1409,7 @@ Starší soubor mezipaměti peněženky bude přejmenován a později jej lze ob
         <source>Daemon Mode</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Settings.qml" line="351"/>
         <source>Show Status</source>
         <translation type="unfinished"></translation>
@@ -2230,11 +2230,11 @@ U případu s prokázaným výdajem nemusíte zadávat adresu příjemce.</trans
         <source>Signature</source>
         <translation>Podpis</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/TxKey.qml" line="199"/>
         <source>Paste TX proof</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Vložte důkaz tx</translation>
+</message>
     <message>
         <source>Paste tx proof</source>
         <translation type="vanished">Vložte důkaz tx</translation>
@@ -2338,11 +2338,11 @@ V případě odchozích plateb můžete získat doklad o výdajích, který dokl
         <source>Create a new wallet</source>
         <translation type="vanished">Vytvořit novou peněženku</translation>
     </message>
-    <message>
+<message>
         <location filename="../wizard/WizardCreateWallet.qml" line="98"/>
         <source>Create A New Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Vytvořit novou peněženku</translation>
+</message>
 </context>
 <context>
     <name>WizardDaemonSettings</name>
@@ -2469,11 +2469,11 @@ V případě odchozích plateb můžete získat doklad o výdajích, který dokl
         <source>Daemon address</source>
         <translation>Adresa démona</translation>
     </message>
-    <message>
+<message>
         <location filename="../wizard/WizardFinish.qml" line="138"/>
         <source>You’re All Set Up!</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>A jsme hotovi!</translation>
+</message>
     <message>
         <location filename="../wizard/WizardFinish.qml" line="57"/>
         <source>Testnet</source>
@@ -2567,7 +2567,7 @@ V případě odchozích plateb můžete získat doklad o výdajích, který dokl
         <source>Restore from keys</source>
         <translation type="vanished">Obnovit z klíčů</translation>
     </message>
-    <message>
+<message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="162"/>
         <source>Wallet Name</source>
         <translation type="unfinished"></translation>
@@ -2690,11 +2690,11 @@ V případě odchozích plateb můžete získat doklad o výdajích, který dokl
         <translation type="obsolete"> &lt;br&gt;Poznámka: toto heslo nelze obnovit. Pokud jej zapomenete, pak bude třeba obnovit peněženku z odpovídajícíh 25ti slov mnemonického seed.&lt;br/&gt;&lt;br/&gt;
                         &lt;b&gt;Zadejte silné heslo&lt;/b&gt; (pomocí písmen, čísel a/nebo symbolů):</translation>
     </message>
-    <message>
+<message>
         <location filename="../wizard/WizardPassword.qml" line="56"/>
         <source>Give Your Wallet A Password</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Nastavte heslo pro vaši peněženku</translation>
+</message>
     <message>
         <location filename="../wizard/WizardPassword.qml" line="119"/>
         <source> &lt;br&gt;Note: this password cannot be recovered. If you forget it then the wallet will have to be restored from its 25 word mnemonic seed.&lt;br/&gt;&lt;br/&gt;
@@ -2721,11 +2721,11 @@ V případě odchozích plateb můžete získat doklad o výdajích, který dokl
         <source>Restore wallet</source>
         <translation type="vanished">Obnovit peněženku</translation>
     </message>
-    <message>
+<message>
         <location filename="../wizard/WizardRecoveryWallet.qml" line="119"/>
         <source>Restore Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Obnovit peněženku</translation>
+</message>
 </context>
 <context>
     <name>WizardWelcome</name>

@@ -97,11 +97,11 @@
         <source>Start Daemon</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+<message>
         <location filename="../components/DaemonManagerDialog.qml" line="127"/>
         <source>Use Custom Settings</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>إستخدم إعدادات خاصه</translation>
+</message>
     <message>
         <source>Start daemon (%1)</source>
         <translation type="vanished">إبدأ الخادم</translation>
@@ -664,36 +664,36 @@
         <source>Start mining</source>
         <translation type="vanished">إبدأ التعدين</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Mining.qml" line="62"/>
         <source>Solo Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>تعدين فردي</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="69"/>
         <source>(Only available for local daemons)</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>(متاح بس للخادم المحلي)</translation>
+</message>
     <message>
         <location filename="../pages/Mining.qml" line="88"/>
         <source>CPU Threads</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Mining.qml" line="108"/>
         <source>Background Mining (Experimental)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>التعدين في الخلفيه (تجريبي) </translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="130"/>
         <source>Manage Miner</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>إتحكم في التعدين</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="140"/>
         <source>Start Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>إبدأ التعدين</translation>
+</message>
     <message>
         <location filename="../pages/Mining.qml" line="146"/>
         <source>Error starting mining</source>
@@ -709,21 +709,21 @@
         <source>Mining is only available on local daemons. Run a local daemon to be able to mine.&lt;br&gt;</source>
         <translation>التعدين متاح فقط علي الخوادم المحليه . شغل خادم مونيرو علي جهازك عشان تعرف تشغل التعدين بالمحفظه</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Mining.qml" line="161"/>
         <source>Stop Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>إبدأ تعدين</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="171"/>
         <source>Status: Not Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>الحاله: لا يُعدن</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="188"/>
         <source>Not Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>مش بيعدن</translation>
+</message>
     <message>
         <source>Stop mining</source>
         <translation type="vanished">إبدأ تعدين</translation>
@@ -787,11 +787,11 @@
         <source>Invalid connection status</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+<message>
         <location filename="../components/NetworkStatusItem.qml" line="103"/>
         <source>Network Status</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>حاله الشبكه</translation>
+</message>
     <message>
         <source>Network status</source>
         <translation type="vanished">حاله الشبكه</translation>
@@ -901,11 +901,11 @@
         <source>WARNING: no connection to daemon</source>
         <translation type="vanished">خطأ: ليس هناك اتصال بخادم</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Receive.qml" line="81"/>
         <source>WARNING: No connection to daemon</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>خطأ: ليس هناك اتصال بخادم</translation>
+</message>
     <message>
         <location filename="../pages/Receive.qml" line="124"/>
         <source>No transaction found yet...</source>
@@ -1134,8 +1134,8 @@
         <location filename="../pages/Settings.qml" line="259"/>
         <location filename="../pages/Settings.qml" line="291"/>
         <source>Address</source>
-        <translation type="unfinished">العنوان</translation>
-    </message>
+        <translation>العنوان</translation>
+</message>
     <message>
         <location filename="../pages/Settings.qml" line="260"/>
         <location filename="../pages/Settings.qml" line="292"/>
@@ -2104,11 +2104,11 @@ For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that pr
         <source>Optional message against which the signature is signed</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/TxKey.qml" line="122"/>
         <source>Generate</source>
-        <translation type="unfinished">إنشاء</translation>
-    </message>
+        <translation>إنشاء</translation>
+</message>
     <message>
         <location filename="../pages/TxKey.qml" line="142"/>
         <source>Check Transaction</source>
@@ -2218,11 +2218,11 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <source>Create a new wallet</source>
         <translation type="vanished">إنشاء محفظه جديده</translation>
     </message>
-    <message>
+<message>
         <location filename="../wizard/WizardCreateWallet.qml" line="98"/>
         <source>Create A New Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>إنشاء محفظه جديده</translation>
+</message>
 </context>
 <context>
     <name>WizardDaemonSettings</name>
@@ -2349,11 +2349,11 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <source>Daemon address</source>
         <translation>عنوان الخادم</translation>
     </message>
-    <message>
+<message>
         <location filename="../wizard/WizardFinish.qml" line="138"/>
         <source>You’re All Set Up!</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>كل شيء جاهز!</translation>
+</message>
     <message>
         <location filename="../wizard/WizardFinish.qml" line="57"/>
         <source>Testnet</source>
@@ -2446,7 +2446,7 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <source>Restore from keys</source>
         <translation type="vanished">إسترجاع بواسطه المفاتيح</translation>
     </message>
-    <message>
+<message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="162"/>
         <source>Wallet Name</source>
         <translation type="unfinished"></translation>
@@ -2563,11 +2563,11 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
                         &lt;b&gt;Enter a strong password&lt;/b&gt; (using letters, numbers, and/or symbols):</source>
         <translation type="obsolete">تذكره : كلمه السر هذه لا يمكن استرجاعها . إذا نسيتها يجب إسترجاع المحفظه من ال25 كلمه السريه . إختار كلمه سر قويه بإستخدام ( الحروف . والأرقام و الرموز) :</translation>
     </message>
-    <message>
+<message>
         <location filename="../wizard/WizardPassword.qml" line="56"/>
         <source>Give Your Wallet A Password</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>أكتب كلمه مرور المحفظه الخاصه بك</translation>
+</message>
     <message>
         <location filename="../wizard/WizardPassword.qml" line="119"/>
         <source> &lt;br&gt;Note: this password cannot be recovered. If you forget it then the wallet will have to be restored from its 25 word mnemonic seed.&lt;br/&gt;&lt;br/&gt;
@@ -2594,11 +2594,11 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <source>Restore wallet</source>
         <translation type="vanished">إسترجاع محفظه</translation>
     </message>
-    <message>
+<message>
         <location filename="../wizard/WizardRecoveryWallet.qml" line="119"/>
         <source>Restore Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>إسترجاع محفظه</translation>
+</message>
 </context>
 <context>
     <name>WizardWelcome</name>

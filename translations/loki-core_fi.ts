@@ -97,11 +97,11 @@
         <source>Start Daemon</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+<message>
         <location filename="../components/DaemonManagerDialog.qml" line="127"/>
         <source>Use Custom Settings</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Käytä omavalintaisia asetuksia</translation>
+</message>
     <message>
         <source>Start daemon (%1)</source>
         <translation type="vanished">Käynnistä taustaohjelma (%1)</translation>
@@ -654,36 +654,36 @@
         <source>Start mining</source>
         <translation type="vanished">Aloita louhinta</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Mining.qml" line="62"/>
         <source>Solo Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Soololouhinta</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="69"/>
         <source>(Only available for local daemons)</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>(saatavilla vain paikallisille taustaohjelmille)</translation>
+</message>
     <message>
         <location filename="../pages/Mining.qml" line="88"/>
         <source>CPU Threads</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Mining.qml" line="108"/>
         <source>Background Mining (Experimental)</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Louhinta taustalla (kokeellinen)</translation>
+</message>
     <message>
         <location filename="../pages/Mining.qml" line="130"/>
         <source>Manage Miner</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Mining.qml" line="140"/>
         <source>Start Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Aloita louhinta</translation>
+</message>
     <message>
         <location filename="../pages/Mining.qml" line="146"/>
         <source>Error starting mining</source>
@@ -765,11 +765,11 @@
         <source>Invalid connection status</source>
         <translation>Virheellinen yhteys</translation>
     </message>
-    <message>
+<message>
         <location filename="../components/NetworkStatusItem.qml" line="103"/>
         <source>Network Status</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Verkon tila</translation>
+</message>
     <message>
         <source>Network status</source>
         <translation type="vanished">Verkon tila</translation>
@@ -1275,8 +1275,8 @@ The old wallet cache file will be renamed and can be restored later.
         <location filename="../pages/Settings.qml" line="259"/>
         <location filename="../pages/Settings.qml" line="291"/>
         <source>Address</source>
-        <translation type="unfinished">Osoite</translation>
-    </message>
+        <translation>Osoite</translation>
+</message>
     <message>
         <location filename="../pages/Settings.qml" line="260"/>
         <location filename="../pages/Settings.qml" line="292"/>
@@ -1759,11 +1759,11 @@ The old wallet cache file will be renamed and can be restored later.
 </context>
 <context>
     <name>TableHeader</name>
-    <message>
+<message>
         <location filename="../components/TableHeader.qml" line="79"/>
         <source>Payment ID</source>
-        <translation type="unfinished">Maksutunniste</translation>
-    </message>
+        <translation>Maksutunniste</translation>
+</message>
     <message>
         <location filename="../components/TableHeader.qml" line="80"/>
         <source>Date</source>
@@ -1774,11 +1774,11 @@ The old wallet cache file will be renamed and can be restored later.
         <source>Block height</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+<message>
         <location filename="../components/TableHeader.qml" line="82"/>
         <source>Amount</source>
-        <translation type="unfinished">Määrä</translation>
-    </message>
+        <translation>Määrä</translation>
+</message>
 </context>
 <context>
     <name>TickDelegate</name>
@@ -1965,9 +1965,9 @@ The old wallet cache file will be renamed and can be restored later.
         <location filename="../pages/Transfer.qml" line="567"/>
         <source>
 Number of transactions: </source>
-        <translation type="unfinished">
+        <translation>
 Rahansiirtojen lukumäärä:</translation>
-    </message>
+</message>
     <message>
         <location filename="../pages/Transfer.qml" line="569"/>
         <source>
@@ -2115,11 +2115,11 @@ For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that pr
         <source>Optional message against which the signature is signed</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/TxKey.qml" line="122"/>
         <source>Generate</source>
-        <translation type="unfinished">Luo</translation>
-    </message>
+        <translation>Luo</translation>
+</message>
     <message>
         <location filename="../pages/TxKey.qml" line="142"/>
         <source>Check Transaction</source>
@@ -2738,16 +2738,16 @@ Number Of Transactions: </source>
 Spending Address Index: </source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+<message>
         <location filename="../main.qml" line="659"/>
         <source>Amount Is Wrong: Expected number from %1 to %2</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Määrä on virheellinen: odotettiin numeroa %1 :n ja %2 :n välillä</translation>
+</message>
+<message>
         <location filename="../main.qml" line="671"/>
         <source>Insufficient Funds. Unlocked balance: %1</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>riittämättömät varat. Lukitsematon saldo: %1</translation>
+</message>
     <message>
         <location filename="../main.qml" line="813"/>
         <source>Payment proof</source>

@@ -97,16 +97,16 @@
         <source>Starting local node in %1 seconds</source>
         <translation>Запуск локальной ноды через %1 секунд</translation>
     </message>
-    <message>
+<message>
         <location filename="../components/DaemonManagerDialog.qml" line="114"/>
         <source>Start Daemon</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Запустить демона</translation>
+</message>
+<message>
         <location filename="../components/DaemonManagerDialog.qml" line="127"/>
         <source>Use Custom Settings</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Использовать свои настройки</translation>
+</message>
     <message>
         <source>Start daemon (%1)</source>
         <translation type="vanished">Запуск демона (%1)</translation>
@@ -199,11 +199,11 @@
         <source>Rings:</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+<message>
         <location filename="../components/HistoryTable.qml" line="245"/>
         <source>Address copied to clipboard</source>
-        <translation type="unfinished">Адрес скопирован в буфер обмена</translation>
-    </message>
+        <translation>Адрес скопирован в буфер обмена</translation>
+</message>
     <message>
         <location filename="../components/HistoryTable.qml" line="55"/>
         <source>Rings:</source>
@@ -365,11 +365,11 @@
         <source>Seed copied to clipboard</source>
         <translation type="vanished">Seed-фраза скопирована в буфер обмена</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Keys.qml" line="116"/>
         <source>Mnemonic Seed</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Мнемоническая seed-фраза</translation>
+</message>
     <message>
         <location filename="../pages/Keys.qml" line="143"/>
         <source>Keys</source>
@@ -380,31 +380,31 @@
         <source>Keys copied to clipboard</source>
         <translation>Ключи скопированы в буфер обмена</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Keys.qml" line="183"/>
         <source>Export Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Экспорт кошелька</translation>
+</message>
+<message>
         <location filename="../pages/Keys.qml" line="248"/>
         <source>Secret View Key</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Приватный ключ для просмотра</translation>
+</message>
+<message>
         <location filename="../pages/Keys.qml" line="249"/>
         <source>Public View Key</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Публичный ключ для просмотра</translation>
+</message>
+<message>
         <location filename="../pages/Keys.qml" line="250"/>
         <source>Secret Spend Key</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Приватный ключ для траты</translation>
+</message>
+<message>
         <location filename="../pages/Keys.qml" line="251"/>
         <source>Public Spend Key</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Публичный ключ для траты</translation>
+</message>
     <message>
         <source>Export wallet</source>
         <translation type="vanished">Экспорт кошелька</translation>
@@ -663,41 +663,41 @@
         <source>Start mining</source>
         <translation type="vanished">Запустить майнинг</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Mining.qml" line="62"/>
         <source>Solo Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Соло-майнинг</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="69"/>
         <source>(Only available for local daemons)</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>(возможно только при использовании локальных демонов)</translation>
+</message>
     <message>
         <location filename="../pages/Mining.qml" line="75"/>
         <source>Mining with your computer helps strengthen the Loki network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.&lt;br&gt; &lt;br&gt;Mining also gives you a small chance to earn some Loki. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Mining.qml" line="88"/>
         <source>CPU Threads</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Количество потоков CPU</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="108"/>
         <source>Background Mining (Experimental)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Фоновый майнинг (эксперементально)</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="130"/>
         <source>Manage Miner</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Управление майнером</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="140"/>
         <source>Start Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Запустить майнинг</translation>
+</message>
     <message>
         <location filename="../pages/Mining.qml" line="146"/>
         <source>Error starting mining</source>
@@ -713,21 +713,21 @@
         <source>Mining is only available on local daemons. Run a local daemon to be able to mine.&lt;br&gt;</source>
         <translation>Майнинг доступен только на локальных демонах. Запустите локальный демон, чтобы майнить</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Mining.qml" line="161"/>
         <source>Stop Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Остановить майнинг</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="171"/>
         <source>Status: Not Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Статус: майнинг выключен</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="188"/>
         <source>Not Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Майнинг выключен</translation>
+</message>
     <message>
         <source>Stop mining</source>
         <translation type="vanished">Остановить майнинг</translation>
@@ -806,11 +806,11 @@
         <source>Invalid connection status</source>
         <translation>Недопустимый статус подключения.</translation>
     </message>
-    <message>
+<message>
         <location filename="../components/NetworkStatusItem.qml" line="103"/>
         <source>Network Status</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Состояние сети</translation>
+</message>
 </context>
 <context>
     <name>NewPasswordDialog</name>
@@ -916,11 +916,11 @@
         <source>WARNING: no connection to daemon</source>
         <translation type="vanished">ВНИМАНИЕ: нет подключения к демону</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Receive.qml" line="81"/>
         <source>WARNING: No connection to daemon</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>ВНИМАНИЕ: нет подключения к демону</translation>
+</message>
     <message>
         <location filename="../pages/Receive.qml" line="124"/>
         <source>No transaction found yet...</source>
@@ -1600,7 +1600,7 @@ The old wallet cache file will be renamed and can be restored later.
         <source>Verify file</source>
         <translation>Проверить файл</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Sign.qml" line="289"/>
         <source>Address</source>
         <translation>Адрес</translation>
@@ -2116,12 +2116,12 @@ For the case of outgoing payments, you can get a &apos;Spend Proof&apos; that pr
         <source>Paste tx ID</source>
         <translation type="vanished">Вставить ID транзакции</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/TxKey.qml" line="85"/>
         <location filename="../pages/TxKey.qml" line="160"/>
         <source>Paste TX ID</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Вставить ID транзакции</translation>
+</message>
     <message>
         <location filename="../pages/TxKey.qml" line="107"/>
         <location filename="../pages/TxKey.qml" line="184"/>
@@ -2156,11 +2156,11 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <source>Signature</source>
         <translation>Подпись</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/TxKey.qml" line="199"/>
         <source>Paste TX proof</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Вставить доказательство отправления</translation>
+</message>
     <message>
         <source>Paste tx proof</source>
         <translation type="vanished">Вставить доказательство отправления</translation>
@@ -2236,11 +2236,11 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <source>Create a new wallet</source>
         <translation type="vanished">Создать новый кошелек</translation>
     </message>
-    <message>
+<message>
         <location filename="../wizard/WizardCreateWallet.qml" line="98"/>
         <source>Create A New Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Создать новый кошелек</translation>
+</message>
 </context>
 <context>
     <name>WizardDaemonSettings</name>
@@ -2362,11 +2362,11 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <source>Daemon address</source>
         <translation>Адрес демона</translation>
     </message>
-    <message>
+<message>
         <location filename="../wizard/WizardFinish.qml" line="138"/>
         <source>You’re All Set Up!</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Вы все настроили!</translation>
+</message>
     <message>
         <location filename="../wizard/WizardFinish.qml" line="57"/>
         <source>Testnet</source>
@@ -2573,17 +2573,18 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <translation type="vanished"> &lt;br&gt; Примечание: этот пароль не может быть восстановлен. Если вы его забудете, то кошелек должен быть восстановлен из своей мнемонической seed-фразы с 25 словосочетаниями. &lt;br/&gt;&lt;br/&gt;
                         &lt;b&gt; Введите надежный пароль &lt;/b&gt; (используя буквы, цифры и/или специальные символы):</translation>
     </message>
-    <message>
+<message>
         <location filename="../wizard/WizardPassword.qml" line="56"/>
         <source>Give Your Wallet A Password</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Введите НОВЫЙ пароль для вашего кошелька</translation>
+</message>
+<message>
         <location filename="../wizard/WizardPassword.qml" line="119"/>
         <source> &lt;br&gt;Note: this password cannot be recovered. If you forget it then the wallet will have to be restored from its 25 word mnemonic seed.&lt;br/&gt;&lt;br/&gt;
                         &lt;b&gt;Enter a strong password&lt;/b&gt; (using letters, numbers, and/or symbols):</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation> &lt;br&gt; Примечание: этот пароль не может быть восстановлен. Если вы его забудете, то кошелек должен быть восстановлен из своей мнемонической seed-фразы с 25 словосочетаниями. &lt;br/&gt;&lt;br/&gt;
+                        &lt;b&gt; Введите надежный пароль &lt;/b&gt; (используя буквы, цифры и/или специальные символы):</translation>
+</message>
 </context>
 <context>
     <name>WizardPasswordUI</name>
@@ -2604,11 +2605,11 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
         <source>Restore wallet</source>
         <translation type="vanished">Восстановить кошелек</translation>
     </message>
-    <message>
+<message>
         <location filename="../wizard/WizardRecoveryWallet.qml" line="119"/>
         <source>Restore Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Восстановить кошелек</translation>
+</message>
 </context>
 <context>
     <name>WizardWelcome</name>
@@ -2795,7 +2796,7 @@ Description: </source>
 Spending address index: </source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+<message>
         <location filename="../main.qml" line="659"/>
         <source>Amount is wrong: expected number from %1 to %2</source>
         <translation type="unfinished"></translation>

@@ -97,16 +97,16 @@
         <source>Starting local node in %1 seconds</source>
         <translation>Lokale node wordt over %1 seconden gestart</translation>
     </message>
-    <message>
+<message>
         <location filename="../components/DaemonManagerDialog.qml" line="114"/>
         <source>Start Daemon</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Start node</translation>
+</message>
+<message>
         <location filename="../components/DaemonManagerDialog.qml" line="127"/>
         <source>Use Custom Settings</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Gebruik aangepaste instellingen</translation>
+</message>
     <message>
         <source>Start daemon (%1)</source>
         <translation type="vanished">Start node (%1)</translation>
@@ -199,11 +199,11 @@
         <source>Rings:</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+<message>
         <location filename="../components/HistoryTable.qml" line="245"/>
         <source>Address copied to clipboard</source>
-        <translation type="unfinished">Adres gekopieerd naar klembord</translation>
-    </message>
+        <translation>Adres gekopieerd naar klembord</translation>
+</message>
     <message>
         <location filename="../components/HistoryTable.qml" line="55"/>
         <source>Rings:</source>
@@ -365,11 +365,11 @@
         <source>Seed copied to clipboard</source>
         <translation type="vanished">Hersteltekst gekopieerd naar klembord</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Keys.qml" line="116"/>
         <source>Mnemonic Seed</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Hersteltekst</translation>
+</message>
     <message>
         <location filename="../pages/Keys.qml" line="143"/>
         <source>Keys</source>
@@ -380,31 +380,31 @@
         <source>Keys copied to clipboard</source>
         <translation>Sleutels gekopieerd naar klembord</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Keys.qml" line="183"/>
         <source>Export Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Portemonnee exporteren</translation>
+</message>
+<message>
         <location filename="../pages/Keys.qml" line="248"/>
         <source>Secret View Key</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Geheime alleen-lezen sleutel</translation>
+</message>
+<message>
         <location filename="../pages/Keys.qml" line="249"/>
         <source>Public View Key</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Openbare alleen-lezen sleutel</translation>
+</message>
+<message>
         <location filename="../pages/Keys.qml" line="250"/>
         <source>Secret Spend Key</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Geheime bestedingssleutel</translation>
+</message>
+<message>
         <location filename="../pages/Keys.qml" line="251"/>
         <source>Public Spend Key</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Openbare bestedingssleutel</translation>
+</message>
     <message>
         <source>Export wallet</source>
         <translation type="vanished">Portemonnee exporteren</translation>
@@ -671,36 +671,36 @@
         <source>Start mining</source>
         <translation type="vanished">Start het minen</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Mining.qml" line="62"/>
         <source>Solo Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Solo minen</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="69"/>
         <source>(Only available for local daemons)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>(alleen beschikbaar voor lokale nodes)</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="88"/>
         <source>CPU Threads</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>CPU threads</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="108"/>
         <source>Background Mining (Experimental)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Minen op de achtergrond (experimenteel)</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="130"/>
         <source>Manage Miner</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Beheer de miner</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="140"/>
         <source>Start Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Start het minen</translation>
+</message>
     <message>
         <location filename="../pages/Mining.qml" line="146"/>
         <source>Error starting mining</source>
@@ -716,21 +716,21 @@
         <source>Mining is only available on local daemons. Run a local daemon to be able to mine.&lt;br&gt;</source>
         <translation>Minen is alleen beschikbaar voor lokale nodes. Start een lokale node om te kunnen minen.&lt;br&gt;</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Mining.qml" line="161"/>
         <source>Stop Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Stop het minen</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="171"/>
         <source>Status: Not Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Status: er wordt niet gemined</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="188"/>
         <source>Not Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Er wordt niet gemined</translation>
+</message>
     <message>
         <source>Stop mining</source>
         <translation type="vanished">Stop het minen</translation>
@@ -809,11 +809,11 @@
         <source>Invalid connection status</source>
         <translation>Ongeldige verbindingsstatus</translation>
     </message>
-    <message>
+<message>
         <location filename="../components/NetworkStatusItem.qml" line="103"/>
         <source>Network Status</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Netwerkstatus</translation>
+</message>
 </context>
 <context>
     <name>NewPasswordDialog</name>
@@ -919,11 +919,11 @@
         <source>WARNING: no connection to daemon</source>
         <translation type="vanished">WAARSCHUWING: er is geen verbinding met een node</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Receive.qml" line="81"/>
         <source>WARNING: No connection to daemon</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>WAARSCHUWING: er is geen verbinding met een node</translation>
+</message>
     <message>
         <location filename="../pages/Receive.qml" line="124"/>
         <source>No transaction found yet...</source>
@@ -1292,8 +1292,8 @@ De naam van het oude cachebestand wordt gewijzigd, zodat het later kan worden he
     <message>
         <location filename="../pages/Settings.qml" line="139"/>
         <source>Rescan Wallet Balance</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Saldo van portemonnee opzoeken</translation>
+</message>
     <message>
         <location filename="../pages/Settings.qml" line="150"/>
         <source>Successfully rescanned spent outputs.</source>
@@ -2199,11 +2199,11 @@ Voor een betalingsbewijs hoeft u het adres van de ontvanger niet op te geven.</t
         <source>Signature</source>
         <translation>Handtekening</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/TxKey.qml" line="199"/>
         <source>Paste TX proof</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Plak transactiebewijs</translation>
+</message>
     <message>
         <source>Paste tx proof</source>
         <translation type="vanished">Plak transactiebewijs</translation>
@@ -2286,11 +2286,11 @@ Voor een betalingsbewijs hoeft u het adres van de ontvanger niet op te geven.</t
         <source>Create a new wallet</source>
         <translation type="vanished">Maak een nieuwe portemonnee aan</translation>
     </message>
-    <message>
+<message>
         <location filename="../wizard/WizardCreateWallet.qml" line="98"/>
         <source>Create A New Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Maak een nieuwe portemonnee aan</translation>
+</message>
 </context>
 <context>
     <name>WizardDaemonSettings</name>
@@ -2418,11 +2418,11 @@ Voor een betalingsbewijs hoeft u het adres van de ontvanger niet op te geven.</t
         <source>Daemon address</source>
         <translation>Node-adres</translation>
     </message>
-    <message>
+<message>
         <location filename="../wizard/WizardFinish.qml" line="138"/>
         <source>You’re All Set Up!</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>U bent klaar met configureren!</translation>
+</message>
     <message>
         <location filename="../wizard/WizardFinish.qml" line="57"/>
         <source>Testnet</source>
@@ -2525,21 +2525,21 @@ Voor een betalingsbewijs hoeft u het adres van de ontvanger niet op te geven.</t
         <source>Restore from keys</source>
         <translation type="vanished">Herstel met sleutels</translation>
     </message>
-    <message>
+<message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="162"/>
         <source>Wallet Name</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Naam van portemonnee</translation>
+</message>
+<message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="181"/>
         <source>Restore From Seed</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Herstel met hersteltekst</translation>
+</message>
+<message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="190"/>
         <source>Restore From Keys</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Herstel met sleutels</translation>
+</message>
     <message>
         <location filename="../wizard/WizardManageWalletUI.qml" line="204"/>
         <source>From QR Code</source>
@@ -2653,11 +2653,11 @@ Voor een betalingsbewijs hoeft u het adres van de ontvanger niet op te geven.</t
         <translation type="obsolete"> &lt;br&gt;Let op: dit wachtwoord kan niet hersteld worden. Als u het wachtwoord vergeet, kan de portemonnee alleen hersteld worden worden met u hersteltekst van 25 woorden.&lt;br/&gt;&lt;br/&gt;
                         &lt;b&gt;Vul een sterk wachtwoord in&lt;/b&gt; (gebruik letters, cijfers, en/of symbolen):</translation>
     </message>
-    <message>
+<message>
         <location filename="../wizard/WizardPassword.qml" line="56"/>
         <source>Give Your Wallet A Password</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Beveilig uw portemonnee met een wachtwoord</translation>
+</message>
     <message>
         <location filename="../wizard/WizardPassword.qml" line="119"/>
         <source> &lt;br&gt;Note: this password cannot be recovered. If you forget it then the wallet will have to be restored from its 25 word mnemonic seed.&lt;br/&gt;&lt;br/&gt;
@@ -2684,11 +2684,11 @@ Voor een betalingsbewijs hoeft u het adres van de ontvanger niet op te geven.</t
         <source>Restore wallet</source>
         <translation type="vanished">Portemonnee herstellen</translation>
     </message>
-    <message>
+<message>
         <location filename="../wizard/WizardRecoveryWallet.qml" line="119"/>
         <source>Restore Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Portemonnee herstellen</translation>
+</message>
 </context>
 <context>
     <name>WizardWelcome</name>

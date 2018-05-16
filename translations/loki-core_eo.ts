@@ -102,11 +102,11 @@
         <source>Start Daemon</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
+<message>
         <location filename="../components/DaemonManagerDialog.qml" line="127"/>
         <source>Use Custom Settings</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Uzi proprajn agordojn</translation>
+</message>
     <message>
         <source>Start daemon (%1)</source>
         <translation type="vanished">Enŝalti la demonon (%1)</translation>
@@ -368,11 +368,11 @@
         <source>Keys</source>
         <translation>Ŝlosiloj</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Keys.qml" line="116"/>
         <source>Mnemonic Seed</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Mnemonikan semon</translation>
+</message>
     <message>
         <location filename="../pages/Keys.qml" line="170"/>
         <source>Keys copied to clipboard</source>
@@ -636,36 +636,36 @@
         <source>Start mining</source>
         <translation type="vanished">Komenci la minadon</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Mining.qml" line="62"/>
         <source>Solo Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Memstara minado</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="69"/>
         <source>(Only available for local daemons)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>(nur disponeblas por lokaj demonoj)</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="88"/>
         <source>CPU Threads</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Minaj procezfadenoj</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="108"/>
         <source>Background Mining (Experimental)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Fona minado (eksperimenta)</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="130"/>
         <source>Manage Miner</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Adminitri la minilon</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="140"/>
         <source>Start Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Komenci la minadon</translation>
+</message>
     <message>
         <location filename="../pages/Mining.qml" line="146"/>
         <source>Error starting mining</source>
@@ -681,21 +681,21 @@
         <source>Mining is only available on local daemons. Run a local daemon to be able to mine.&lt;br&gt;</source>
         <translation>La minado nur disponeblas ĉe lokaj demonoj. Lanĉu lokan demonon por ebligi la minadon</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Mining.qml" line="161"/>
         <source>Stop Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Haltigi la minadon</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="171"/>
         <source>Status: Not Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
+        <translation>Stato: ne minante</translation>
+</message>
+<message>
         <location filename="../pages/Mining.qml" line="188"/>
         <source>Not Mining</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Ne minante</translation>
+</message>
     <message>
         <source>Stop mining</source>
         <translation type="vanished">Haltigi la minadon</translation>
@@ -764,11 +764,11 @@
         <source>Invalid connection status</source>
         <translation>Malĝusta retstatuso</translation>
     </message>
-    <message>
+<message>
         <location filename="../components/NetworkStatusItem.qml" line="103"/>
         <source>Network Status</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Retstatuso</translation>
+</message>
 </context>
 <context>
     <name>NewPasswordDialog</name>
@@ -874,11 +874,11 @@
         <source>WARNING: no connection to daemon</source>
         <translation type="vanished">AVERTO: neniu konekto kun la demono</translation>
     </message>
-    <message>
+<message>
         <location filename="../pages/Receive.qml" line="81"/>
         <source>WARNING: No connection to daemon</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>AVERTO: neniu konekto kun la demono</translation>
+</message>
     <message>
         <location filename="../pages/Receive.qml" line="124"/>
         <source>No transaction found yet...</source>
@@ -2205,11 +2205,11 @@ Kaze de Elspezpruvo, vi ne bezonas precizi la ricevantan adreson.</translation>
         <source>Create a new wallet</source>
         <translation type="vanished">Krei novan monujon</translation>
     </message>
-    <message>
+<message>
         <location filename="../wizard/WizardCreateWallet.qml" line="98"/>
         <source>Create A New Wallet</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Krei novan monujon</translation>
+</message>
 </context>
 <context>
     <name>WizardDaemonSettings</name>
@@ -2332,11 +2332,11 @@ Kaze de Elspezpruvo, vi ne bezonas precizi la ricevantan adreson.</translation>
         <source>Daemon address</source>
         <translation>Demonadreso</translation>
     </message>
-    <message>
+<message>
         <location filename="../wizard/WizardFinish.qml" line="138"/>
         <source>You’re All Set Up!</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Vi pretas!</translation>
+</message>
     <message>
         <location filename="../wizard/WizardFinish.qml" line="57"/>
         <source>Testnet</source>
@@ -2541,11 +2541,11 @@ Kaze de Elspezpruvo, vi ne bezonas precizi la ricevantan adreson.</translation>
         <translation type="obsolete">&lt;br&gt;Sciu ke tiu pasvorto nerestaŭreblas, kaj se vi forgesas ĝin, vi devos restaŭri vian monujon el la 25-vorta mnemoniksemo.&lt;br/&gt;&lt;br/&gt;
                         &lt;b&gt;Certiĝu ke via pasvorto sekuras sufiĉe.&lt;/b&gt; (uzu literojn, numerojn kaj/aŭ simbolojn):</translation>
     </message>
-    <message>
+<message>
         <location filename="../wizard/WizardPassword.qml" line="56"/>
         <source>Give Your Wallet A Password</source>
-        <translation type="unfinished"></translation>
-    </message>
+        <translation>Donu pasvorton al via monujo</translation>
+</message>
     <message>
         <location filename="../wizard/WizardPassword.qml" line="119"/>
         <source> &lt;br&gt;Note: this password cannot be recovered. If you forget it then the wallet will have to be restored from its 25 word mnemonic seed.&lt;br/&gt;&lt;br/&gt;
