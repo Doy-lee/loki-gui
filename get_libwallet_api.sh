@@ -211,12 +211,13 @@ eval make -C $LOKI_DIR/build/$BUILD_TYPE/external/easylogging++ all install
 eval make -C $LOKI_DIR/build/$BUILD_TYPE/external/db_drivers/liblmdb all install
 
 # Install libunbound
-echo "Installing libunbound..."
-pushd $LOKI_DIR/build/$BUILD_TYPE/external/unbound
-# no need to make, it was already built as dependency for libwallet
-# make -j$CPU_CORE_COUNT
-$make_exec install -j$CPU_CORE_COUNT
-popd
-
+if [ -d $LOKI_DIR/build/$BUILD_TYPE/external/unbound ]; then
+    echo "Installing libunbound..."
+    pushd $LOKI_DIR/build/$BUILD_TYPE/external/unbound
+    # no need to make, it was already built as dependency for libwallet
+    # make -j$CPU_CORE_COUNT
+    $make_exec install -j$CPU_CORE_COUNT
+    popd
+fi
 
 popd
