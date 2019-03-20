@@ -13,7 +13,7 @@ INSTALL_DIR=$ROOT_DIR/wallet
 LOKI_DIR=$ROOT_DIR/loki
 BUILD_LIBWALLET=false
 
-git submodule update --init --remote
+git submodule update --init
 git -C $LOKI_DIR submodule update --init
 
 # get loki core tag
