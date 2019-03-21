@@ -17,8 +17,10 @@ git submodule update --init
 git -C $LOKI_DIR submodule update --init
 
 # get loki core tag
+pushd $LOKI_DIR
 git fetch --tags --force
 get_tag
+popd
 
 # Build libwallet if it doesnt exist
 if [ ! -f $LOKI_DIR/lib/libwallet_merged.a ]; then 
