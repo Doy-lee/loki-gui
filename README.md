@@ -1,4 +1,6 @@
-# Loki GUI
+# OLD UNSSUPPORTED Loki GUI
+
+# THIS PROJECT IS NO LONGER SUPPORTED, PLEASE DOWNLOAD THE NEW LOKI ELECTRON GUI https://github.com/loki-project/loki-electron-gui-wallet
 
 Copyright (c) 2018 The Loki Project
 
